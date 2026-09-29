@@ -1,0 +1,32 @@
+{
+  "id": "./",
+  "name": "HKU Arts AI Course Recommender",
+  "short_name": "AI + Arts",
+  "description": "Discover AI-integrated courses across HKU Arts.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#000000",
+  "theme_color": "#d03c35",
+  "icons": [
+    {
+      "src": "./images/pwa-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./images/pwa-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./images/pwa-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

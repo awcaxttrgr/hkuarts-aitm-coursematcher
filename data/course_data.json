@@ -1,0 +1,906 @@
+[
+  [
+    {
+      "programme": "Translation (SoC)",
+      "code": "CHIN2348",
+      "title": "Bilingual studies in media and popular culture",
+      "description_brief": "Decode how media technology and bilingual translation shape global pop culture, empowering you to critically analyze Chinese internet trends and AI-era media production.",
+      "description": "The course introduces mass media and popular culture in the context of bilingualism and seeks to deepen students’ understanding of translation as a cross-cultural dialogue. Discussions will focus on a wide range of popular genres, including film, television, advertisement, magazines, pop music and internet culture, in the Chinese-speaking world. Through critical readings of the bilingual texts, cultural issues such as national and gender identities, ideology, globalization and the global circulation of images and imaginary, and the dynamics between cultural production, media technology, and political discourses will also be explored.",
+      "qr": "Translation",
+      "website": "https://web.chinese.hku.hk/en/undergraduate/handbook/",
+      "keyword": [
+        "Pop Culture",
+        "Mass Media",
+        "Translation",
+        "Film & TV",
+        "Internet Culture",
+        "Chinese Media"
+      ],
+      "artwork": "images/CHIN2348.png"
+    },
+    {
+      "programme": "Translation (SoC)",
+      "code": "CHIN2368",
+      "title": "Translation and social media",
+      "description_brief": "Master how platform technologies and translation power modern social media, equipping you to analyze viral multilingual content and innovate within the AI-driven digital media ecosystem.",
+      "description": "This course focuses on the role of translation in social media communication. It contemplates how wideranging multilingual digital contents are circulated on social media via translation, how genres, user experiences, visual styles, business models and technologies harnessed by digital enterprises and platforms are impacting on legacy media and traditional means of mediated communication, and where the diverse user-generated content continue to innovate and transform social media communication. The students will access new pathways to future understandings of the innovations and value cocreations in the rapid evolving new media ecology.",
+      "qr": "Translation",
+      "website": "",
+      "keyword": [
+        "Social Media",
+        "Translation",
+        "Content Creation",
+        "Digital Media",
+        "Viral Content"
+      ],
+      "artwork": "images/CHIN2368.png"
+    },
+    {
+      "programme": "Translation (SoC)",
+      "code": "CHIN2373",
+      "title": "Translation technologies",
+      "description_brief": "Lead automated intercultural communication and excel in today’s tech-driven language industries with cutting-edge AI and machine translation tools—no coding required.",
+      "description": "This course aims to equip students with theoretical knowledge and practical skills to work effectively with trending translation technologies. It introduces students to computer assisted translation (translation memory, terminology management), machine translation, AI translation, as well as text preprocessing and post-editing practices. No prior knowledge on programming is required. Through practical activities and exposure to state-of-the-art research evidence, students will be able to engage with different translation scenarios and critically assess the role of technology and automation in intercultural communication and professional translation practice.",
+      "qr": "Translation",
+      "website": "",
+      "keyword": [
+        "Machine Translation",
+        "AI Translation",
+        "Language Tech",
+        "Translation Tools",
+        "No-Code Tech"
+      ],
+      "artwork": "images/CHIN2373.png"
+    },
+    {
+      "programme": "English Studies (SoE)",
+      "code": "ENGL2050",
+      "title": "English corpus linguistics",
+      "description_brief": "Harness modern computing and massive text datasets to analyze real-world English, mastering the data-driven computational methods that power language analysis in the AI era.",
+      "description": "Corpus linguistics is a rapidly-developing methodology in the study of language. It exploits the power of modern computer technology to manipulate and analyse large collections of naturally-occurring language (‘corpora’). This course will introduce students to the use of computers and computerized corpora as tools for exploring the English language.",
+      "qr": "ENGL2050",
+      "website": "",
+      "keyword": [
+        "English Language",
+        "Linguistics",
+        "Text Analysis",
+        "Big Data",
+        "Language Data"
+      ],
+      "artwork": "images/ENGL2050.png"
+    },
+    {
+      "programme": "English Studies (SoE)",
+      "code": "ENGL2103",
+      "title": "Language and social media",
+      "description_brief": "Analyze human-computer interaction and digital language across platforms like TikTok, conducting data-driven research to decode how human communication evolves within today's AI-powered social media landscape.",
+      "description": "Using discourse analysis, this course explores a wide range of discourses in social media. We will examine language use and discursive phenomena in social media such as instant messages, LinkedIn, email, Instagram, TikTok, Twitter, online discussion boards, livestreaming, personal blogging and vlogging, and HCI (Human-Computer Interaction). Reading and discussing sociolinguistic studies on digital discourse, students will deepen their understanding of theoretical and methodological issues relevant to the discourse of social media. Students will conduct small-scale research projects by gathering and analyzing naturally-occurring discourse in one or more of social media.",
+      "qr": "ENGL2103",
+      "website": "",
+      "keyword": [
+        "Social Media",
+        "Online Communication",
+        "TikTok & Trends",
+        "Digital Discourse",
+        "Human-Computer Interaction"
+      ],
+      "artwork": "images/ENGL2103.png"
+    },
+    {
+      "programme": "Art History (SoH)",
+      "code": "ARTH2102",
+      "title": "The connecting sea: An introduction to East Mediterranean archaeology",
+      "description_brief": "Reconstruct ancient Mediterranean trade and culture by combining classical archaeology with AI-driven 3D modeling to bring lost artifacts and architecture back to life.",
+      "description": "Situated between three continents, the East Mediterranean Sea has always enabled the flow of people, things, and ideas. From the advent of early complex societies in the Levant, to the cultural developments of Greece, we can trace the impacts of interaction and exchange on the material remains of this region's past. This class introduces the archaeological methods and theories that help us contextualize and interpret material culture. The things people made, used, and discarded tell us about how they lived, so we will examine a wide range of material evidence, including art, pottery, technology, architecture, and landscapes. Archaeology provides diverse ways to study and conceptualize ancient material culture to better understand society. Our focus will be the Middle/Late Bronze and the Iron Ages of the 2nd and 1st millennia BCE in the areas covered by Greece, Turkey, Cyprus, Syria, Lebanon, Israeli, Palestine, and Jordan. Cultures and periods covered will include Minoans, Hittites, Canaanites, Myceneans, Syro-Hittites, Cypriots, Phoenicians, Biblical Archaeology, Phrygians, Lydians, Greeks, and end with the Romans in Asia. We will also discuss cultural heritage and the impact of archaeology\nin our contemporary world. The teacher advised that he is building AI into the 3D modelling assignment.",
+      "qr": "ARTH2102",
+      "website": "",
+      "keyword": [
+        "Archaeology",
+        "Ancient History",
+        "3D Modeling",
+        "Mediterranean",
+        "Heritage Preservation"
+      ],
+      "artwork": "images/ARTH2102.png"
+    },
+    {
+      "programme": "Art History (SoH)",
+      "code": "ARTH2108",
+      "title": "Emerging societies: An introduction to Mesopotamian archaeology",
+      "description_brief": "Decode the world's earliest empires in Mesopotamia using AI-powered 3D modeling to visually reconstruct ancient heritage, cityscapes, and historical material culture.",
+      "description": "Ancient Southwestern Asia (a.k.a. the Near East) – the region of the world centered on what is today Iraq – saw the earliest developments in many aspects of complex society. There, in the ‘land between the rivers’ (literally 'Mesopotamia') of the Tigris and Euphrates, the first agriculture, cities, writing, and empires all arose. Archaeologists examine material remains – architecture, pottery, technology, landscapes, material culture - to investigate societal developments of the past. This class introduces the archaeological methods and theories that help us contextualize and interpret material culture. Our focus is on the Chalcolithic, Bronze, and Iron Ages of the 4th through 1st millennia BCE in the area centered on Iraq and surrounded by Iran, the South Caucasus, Turkey, and Syria. As a region with writing that goes back over 5000 years, we are able to contextualize our understanding of the archaeological remains within a historical framework that includes the following cultures and periods: Uruk, Ur, Kura-Araxes, Akkadians, Babylonians, Assyrians, Elamites, Hittites, Urartians, Phrygians, and Persians. We also discuss cultural heritage and the impact of archaeology in our contemporary world. The teacher advised that he is building AI into the 3D modelling assignment.",
+      "qr": "ARTH2108",
+      "website": "",
+      "keyword": [
+        "Mesopotamia",
+        "Archaeology",
+        "Ancient Civilizations",
+        "3D Modeling",
+        "World History"
+      ],
+      "artwork": "images/ARTH2108.png"
+    },
+    {
+      "programme": "Art History (SoH)",
+      "code": "ARTH2111",
+      "title": "Artifacts, technology, and archaeology",
+      "description_brief": "Harness 3D scanning, drones, and digital humanities methods to analyze real ancient artifacts, seamlessly bridging cutting-edge technology with the study of human history.",
+      "description": "Objects have always been central to the way humans live their lives and how societies function.  Ancient ceramic storage vessels, stone tools, coins, cylinder seals, sowing needles made from bones – these and many other types of artifacts represent ancient innovations.  Past humans used technologies like kilns and drills to create objects that then are themselves deployed to enhance human work.  At the same time, artifacts hold a wide variety of emotional, artistic, political, social, and many other meanings and significances.  This course introduces how archaeologists investigate ancient artifacts and ancient technologies through a variety of interdisciplinary theories and methods in the study of past material culture, while centering the human experience of these objects.  The methods that archaeologists use today also include innovative digital humanities and other techniques including 3D scanning, chemical/geological analysis, drones, and cloud databases.  In this discussion-based course, students will read about and discuss artifacts and technology, old and new, while gaining hands-on experience through an individual research project on artifacts from Armenia in the South Caucasus, both physical objects and digital representations.  If possible, we may also study East Asian objects from local museums.  This is an introductory course, no prior experience is necessary and students from all backgrounds are welcome.",
+      "qr": "ARTH2111",
+      "website": "",
+      "keyword": [
+        "Artifacts",
+        "3D Scanning",
+        "Drones",
+        "Digital Archaeology",
+        "Museum Studies"
+      ],
+      "artwork": "images/ARTH2111.png"
+    },
+    {
+      "programme": "Comparative Literature (SoH)",
+      "code": "CLIT2026",
+      "title": "Digital culture",
+      "description_brief": "Unpack the digital frontier by investigating virtuality, cyber-ethics, and cyborg art, equipping you to critically navigate how technology and AI reshape human identity, culture, and politics.",
+      "description": "This course explores the evolving cultural dimensions of the digital domain. It examines moral issues, including privacy, surveillance, and hacking, as well as the political implications of our online lives. The course also examines the aesthetic potential of the digital and investigates key concepts such as “virtuality,” “interactivity,” “hypertexts,” “simulation,” “cyborgs,” and “cyber-subcultures.” Media synergy and depictions of cyberculture in the cinema, literature, and other art forms will also be considered.",
+      "qr": "CLIT2026",
+      "website": "",
+      "keyword": [
+        "Digital Culture",
+        "Cyber Ethics",
+        "Virtual Reality",
+        "Cyberpunk & Sci-Fi",
+        "Surveillance & Privacy"
+      ],
+      "artwork": "images/CLIT2026.png"
+    },
+    {
+      "programme": "Comparative Literature (SoH)",
+      "code": "CLIT2100",
+      "title": "Fugitive science: Science and technology studies (STS) approaches to facts and fakes",
+      "description_brief": "Challenge the line between real and fake—from deepfakes and digital manipulation to cyborg technologies—mastering critical reasoning to navigate truth in an AI-dominated, synthetic age.",
+      "description": "Concerns over fakes have come to the fore across a wide range of contemporary global transformations, from the circulation of counterfeits, forgeries, and other shadow markets, to “fake news” and the decontextualization of information reproduced across globalized media technologies, to specters of state pageantry, rigged elections, and a burgeoning internet zeal for conspiracy theories of all kinds. But, what is a fake? Are all fakes the same? Who gets to decide what is authentic? Are ‘fake’ and ‘authentic’ absolute and antithetical categories? Can there be such things as “real/fake” hybrids? And, do fakes have any virtues? In this course, students will explore issues of authenticity and manipulation in relation to the production and circulation of 'facts', especially as they arise in medicine and science. We will consider, for instance, if doping in sports is a form of cheating and if self-tracking devices reveal our authentic selves, or if we exist as cyborgs in ways that makes these distinctions moot. We will ask whether scientists produce knowledge about things and people that already exist out there in the world, or if they might actually make their objects of analysis in the very act of studying them. Through topics like 'heart disease and race' and 'sick building syndrome and chemical exposure', students will learn about how activists, scientists, and industries fight over what and who gets “made up” through science. The objective of this course is not to make claims over what is or is not factual, but to introduce students to critically interrogating how facts are produced rather than merely discovered.",
+      "qr": "CLIT2100",
+      "website": "https://complit.hku.hk/index.php/comparative-literature-courses-2026-27/",
+      "keyword": [
+        "Fake News",
+        "Deepfakes",
+        "Media Literacy",
+        "Misinformation",
+        "Science & Society"
+      ],
+      "artwork": "images/CLIT2100.png"
+    },
+    {
+      "programme": "Gender Studies (SoH)",
+      "code": "GEND2010",
+      "title": "Feminist science and technology studies",
+      "description_brief": "Critique how emerging technologies and algorithms intersect with gender, race, and power, equipping you with the critical framework needed to build inclusive, ethical, and responsible AI.",
+      "description": "As an interdisciplinary field that spans history, anthropology, cultural studies, geography, and sociology, science and technology studies asks fundamental questions of how our world—driven by the ever-emerging advances in science and technology—is also culturally shaped by our understandings of “science” and “technology.” This course takes a feminist perspective to science and technology studies, meaning that the central analytic in our quest is power: how do “science” and “technology” also manifest and manage difference? How is that difference unequally distributed, treated, institutionalized, and experience? And how is that difference part and parcel of “science” and “technology”? A feminist perspective, focused on difference, thus draws attention to the myriad of difference produced, unevenly so: gender, sexuality, race, ethnicity, ability, health, nationality, and class.",
+      "qr": "Comparative_Literature",
+      "website": "https://genderstudies.hku.hk/975-2/courses/",
+      "keyword": [
+        "AI Ethics",
+        "Gender & Diversity",
+        "Algorithmic Bias",
+        "Social Justice",
+        "Technology & Society"
+      ],
+      "artwork": "images/GEND2010.png"
+    },
+    {
+      "programme": "History (SoH)",
+      "code": "HIST2136",
+      "title": "The Graeco-Roman world: From Homer to Augustus",
+      "description_brief": "Trace classical foundations from ancient Greece to Rome, gaining crucial cultural context to understand how classical ideals continue to inform today's tech-centric, AI-driven world.",
+      "description": "This course covers the history of the Graeco-Roman world during the first millennium BCE: from the Greek Early Iron Age to the rise of the Roman Empire. The main topics include material culture, the Greek city-states, the Persian Wars, Greek politics and theatre, Athenian imperialism, ancient daily life, mythology and religion, Alexander the Great, the Hellenistic kingdoms, and the Roman Republic and Empire (about 70/30% Greece/Rome). While the focus is on Greece and Rome, attention will also be paid to their interaction with neighbouring cultures such as Persia and Anatolia, as well as to the reception of the Classical world up until today. We will reads selections from many well-known ancient texts in English translation.",
+      "qr": "History",
+      "website": "https://www.history.hku.hk/undergraduate/course-catalogue",
+      "keyword": [
+        "Ancient Greece",
+        "Ancient Rome",
+        "Mythology",
+        "Classical World",
+        "World History"
+      ],
+      "artwork": "images/HIST2136.png"
+    },
+    {
+      "programme": "History (SoH)",
+      "code": "HIST2204",
+      "title": "Technology and society: A modern history",
+      "description_brief": "Explore the rise of modern computing and industrial technology, uncovering the historical forces that shaped our digital era to critically navigate the societal impact of AI.",
+      "description": "This class introduces students to the history of technology since the late 18th century. We will cover both the major tenets of the development of technology during the past two centuries and major debates among historians of technology. The course will not only cover major technologies that have influenced and changed modern society, such as the steam engine, railways or the computer, but also explore how new technologies and modern society influenced each other. The scope of the course is global, but it will particularly focus on developments in Europe, North America and East Asia. By the end of the course, students will have developed a better understanding of the historical development of technology in the modern period, which, in turn, will give them a new perspective on the role technology plays in society today",
+      "qr": "History",
+      "website": "",
+      "keyword": [
+        "History of Technology",
+        "Industrial Revolution",
+        "Computing History",
+        "Modern History",
+        "Technology & Society"
+      ],
+      "artwork": "images/HIST2204.png"
+    },
+    {
+      "programme": "History (SoH)",
+      "code": "HIST2205",
+      "title": "Digital history: From concordances to big data",
+      "description_brief": "Apply machine learning, text mining, and big data analytics to historical research, equipping you with computational skills to uncover data-driven insights from complex human history.",
+      "description": "This course investigates how the advent of computing and society’s ongoing digital transformation have influenced historical practice. Students will be introduced to the major topics and debates in digital history, including the fragility of new media, the creation of biographical databases, data analytics, and computer-assisted interpretations of the past. Hands-on lab sessions will teach computational methods tailored to historical inquiry, such as digital forensics, text mining, geographic information systems, network analysis, and machine learning. On this foundation, students will develop their own digital history project, which will either apply a computational approach to a traditional historical research topic or reimagine how historical research should be conducted in an age of big data. No background in programming is assumed.",
+      "qr": "History",
+      "website": "",
+      "keyword": [
+        "Digital History",
+        "Big Data",
+        "Text Mining",
+        "Machine Learning",
+        "Mapping & GIS"
+      ],
+      "artwork": "images/HIST2205.png"
+    },
+    {
+      "programme": "History (SoH)",
+      "code": "HIST2207",
+      "title": "Printer, typesetter, reader, scribe: A global history of books",
+      "description_brief": "Journey from ancient papyrus to born-digital media, combining physical artifact analysis with digital archive tools to decode how evolving technologies shape human knowledge and culture.",
+      "description": "Picture a book. Do you think of an e-reader and digital text on a screen? Or do you think of words printed on a physical page? Does a book have to be bound? What about a scroll, a tablet, or a handful of written pages? How about your phone? What makes any of these “a book”? In this class we’ll explore what books are today, and what they have been in the past. We’ll look at how different technologies have shaped the material forms in which texts have been inscribed, considering developments from the papyrus scroll to born-digital books. Above all, we’ll focus on the physical form of the book, paying close attention to what different material forms can tell us about how readers have used books, changing ideas of authorship, the place of books in society, and the impact (or lack thereof) of printing. By examining books in this way, you’ll gain an understanding of how cultures have shaped what we think of when we think of “books” — and how cultures have been shaped in turn. This course includes hands-on examination of books and manuscripts both in HKU’s Special Collections and digitally in other archives. You’ll learn to analyze a book through a semester-long “Pet Book” project and build on our in-class discussions of books as objects, vehicles for text, and social forces through a final digital essay of your design. Though this class will focus on early books in Western Europe and East Asia, we will also consider the textual cultures of Latin America and SubSaharan Africa. Students who are interested in using books for future research projects will learn new skills through which to approach books as material objects, and all students will gain a deeper appreciation of the textual world around them.",
+      "qr": "History",
+      "website": "",
+      "keyword": [
+        "Book History",
+        "Print Culture",
+        "Publishing",
+        "E-Books",
+        "Archives & Manuscripts"
+      ],
+      "artwork": "images/HIST2207.png"
+    },
+    {
+      "programme": "History (SoH)",
+      "code": "HIST3080",
+      "title": "Historical gaming",
+      "description_brief": "Combine academic historical research with interactive gaming technology to design playable digital worlds, reimagining how human history is communicated in the age of interactive media.",
+      "description": "History takes many forms in the world around us. It is an academic discipline practiced professionally in universities. It is taught out of textbooks in schools. And it often takes the form of commercial entertainment, such as heritage sites, museums, movies and magazines. In the past few decades, computer games have emerged as another popular source of representations of the past as entertainment. But while such games regularly feature the past as a setting, historians have rarely taken them seriously or considered them as a potential medium for the delivery of historical research. However, some historians, especially those concerned that professional history with its emphasis upon detailed evidence, critical argument and open debate should be more accessible, have begun to explore the benefits of using this medium to push beyond the limitations of written history. They have asked new questions. Can computer games help historians to reach new audiences? Could this medium allow the immersive effects of film and the complexity of written scholarship to be combined? This course focuses upon history as practice and methodology. It challenges students both to reflect upon the disciplinary conventions of academic history and to innovate by applying these to the medium of gaming. In the course, students design a historical game based upon academic research, combining truthfulness with playability, and enhancing access to the past as a source of open-ended discovery and critical debate.",
+      "qr": "History",
+      "website": "",
+      "keyword": [
+        "Video Games",
+        "Game Design",
+        "Interactive Storytelling",
+        "Historical Games",
+        "Digital Media"
+      ],
+      "artwork": "images/HIST3080.png"
+    },
+    {
+      "programme": "General Linguistics (SoH)",
+      "code": "LING2027",
+      "title": "Phonology: An introduction to the study of sound systems",
+      "description_brief": "Apply machine learning, data coding, and scripting to analyze human speech patterns, mastering computational techniques to decode the hidden rule systems of global languages.",
+      "description": "The goal of the course is to introduce students to the fundamental concepts of phonology and the various phonological systems found in human languages. Students will gain experience in analyzing language data and developing phonological rules using scripting, data coding, and machine learning techniques.",
+      "qr": "LING2027",
+      "website": "",
+      "keyword": [
+        "Speech & Sound",
+        "Phonetics",
+        "Linguistics",
+        "Machine Learning",
+        "Coding for Beginners"
+      ],
+      "artwork": "images/LING2027.png"
+    },
+    {
+      "programme": "General Linguistics (SoH)",
+      "code": "LING2066",
+      "title": "Variation Analysis",
+      "description_brief": "Combine speech science with machine learning and scripting, training you to build data-driven models that analyze and predict sound structures across diverse human languages.",
+      "description": "Language is inherently variable. No two people speak the same way, nor does one person use the same speech patterns in all contexts. This type of variation is not random, but structured, and depends on the identities of the speaker and their audience, the topic of conversation, the speaker's attitude, and a variety of other social and linguistic factors. This course will introduce students to the field of variationist sociolinguistics, which is concerned with the systematic study of language variation and its relationship to linguistic structure and social meaning. This course will focus on phonetic, phonological, and morphophonological variation, but variation at other levels of linguistic structure will also be addressed. Students will learn to describe and interpret patterns of linguistic variation, discuss and evaluate primary studies of sociolinguistic variation, and implement research methods and computational tools for investigating variation. Students will synthesize these skills by conducting a small-scale original study of sociolinguistic variation as a final project.",
+      "qr": "LING2066",
+      "website": "https://linguistics.hku.hk/courses/ba-courses/",
+      "keyword": [
+        "Dialects & Accents",
+        "Speech Science",
+        "Sociolinguistics",
+        "Data Modeling",
+        "Language Diversity"
+      ],
+      "artwork": "images/LING2066.png"
+    },
+    {
+      "programme": "General Linguistics (SoH)",
+      "code": "LING2067",
+      "title": "Natural language processing",
+      "description_brief": "Explore how machines process and understand human language—no coding required—gaining hands-on experience with the AI and text-mining tools shaping modern technology.",
+      "description": "Natural Language Processing (NLP) addresses how machines analyze, produce and understand natural language. The field lies at the crossroads of linguistics and computer science and encompasses a wide range of techniques including automatic speech recognition, text mining, machine translation, and speech synthesis. The goal of this course is to provide a thorough introduction to basic methods and issues of NLP, with a specific focus on text mining. Flipped classroom will be used for most of the lectures to allow more learning activities and hands-on practice in class. No previous experience in programming is required for this course, and students will experiment with various dedicated software and interfaces.",
+      "qr": "LING2067",
+      "website": "",
+      "keyword": [
+        "Natural Language Processing",
+        "NLP",
+        "Speech Recognition",
+        "Text Mining",
+        "AI Tools"
+      ],
+      "artwork": "images/LING2067.png"
+    },
+    {
+      "programme": "General Linguistics (SoH)",
+      "code": "LING2068",
+      "title": "Computational approaches to language",
+      "description_brief": "Harness computer simulations and big data to model how languages evolve, compete, and change over time, bridging computational methods with the study of human culture.",
+      "description": "Computational approaches are becoming increasingly popular in the social sciences and in the humanities, and linguistics is no exception. Large databases, computer models and statistical analyses – to mention better-known research paradigms – allow to revisit long-debated issues in the field, such as how languages are born, change, compete or die. This course provides an overview of the available methods and of their application to sociolinguistics, historical linguistics, phonology, syntax and other fields. Students will be acquainted with various approaches and eventually be able to assess the benefits of such approaches for their own research. Flipped classroom will be used for most of the lectures to allow more learning activities and hands-on practice in class. Students will acquire basic skills in computational linguistics, such as extracting data from existing linguistic databases or analyzing the outputs of simulations focusing on linguistic diversity or language change.",
+      "qr": "LING2068",
+      "website": "https://linguistics.hku.hk/courses/ba-courses/streams-in-hku-linguistics/",
+      "keyword": [
+        "Computational Linguistics",
+        "Language Evolution",
+        "Big Data",
+        "Computer Simulations",
+        "Data Science"
+      ],
+      "artwork": "images/LING2068.png"
+    },
+    {
+      "programme": "Philosophy (SoH)",
+      "code": "PHIL2225",
+      "title": "The philosophy of artificial intelligence",
+      "description_brief": "Explore the big philosophical questions of AI—from machine consciousness and algorithmic bias to the Singularity—to shape the ethical and humanistic future of artificial intelligence.",
+      "description": "This course provides an introduction to the philosophy of artificial intelligence. Central questions include: In what sense is artificial intelligence a form of intelligence? Can computers achieve a form of intelligence that far surpasses human intelligence, i.e., can we reach the so-called Singularity? Does the Singularity pose an existential treat to humanity? Can computers be conscious? Can we communicate and share a language with AI? Can and should decisions made by AI be explainable to humans? What is algorithmic bias and what can be done about it? What are our moral obligations towards AI?",
+      "qr": "Philosophy",
+      "website": "https://philosophy.hku.hk/undergrad-2/courses-2026-27/",
+      "keyword": [
+        "AI Philosophy",
+        "Machine Consciousness",
+        "AI Ethics",
+        "Singularity",
+        "Future of Tech"
+      ],
+      "artwork": "images/PHIL2225.png"
+    },
+    {
+      "programme": "Philosophy (SoH)",
+      "code": "PHIL2230",
+      "title": "Philosophy and cognitive science",
+      "description_brief": "Examine the human mind through computational lenses, exploring how neural networks, language, and computer science inform our understanding of consciousness and human behavior.",
+      "description": "We shall look at some of the philosophical issues involved in studying minds and behaviour scientifically. We might discuss questions such as: Can we explain all mental phenomena in computational terms? What is consciousness? What is the role of language in thinking? How useful are neural networks in understanding the mind?",
+      "qr": "Philosophy",
+      "website": "",
+      "keyword": [
+        "Cognitive Science",
+        "Consciousness",
+        "Neural Networks",
+        "Human Mind",
+        "Psychology & Logic"
+      ],
+      "artwork": "images/PHIL2230.png"
+    },
+    {
+      "programme": "Philosophy (SoH)",
+      "code": "PHIL2656",
+      "title": "Philosophy of virtual reality",
+      "description_brief": "Dive into technophilosophy to analyze virtual and augmented realities, questioning what is \"real\" in simulated environments and how immersive digital worlds redefine human experience.",
+      "description": "This course provides an introduction to the philosophy of virtual reality – and more generally to technophilosophy. Central questions include: What is a virtual reality and how is it related to augmented reality? How can we know that we’re not living in a simulated reality? Is a virtual object, say a virtual fork, real and if so, is it a real fork? Can we live a good life in a simulated reality? What is the connection between mind and body in virtual reality? What do words mean in virtual reality?",
+      "qr": "Philosophy",
+      "website": "",
+      "keyword": [
+        "Virtual Reality",
+        "Simulation Theory",
+        "Technophilosophy",
+        "Augmented Reality",
+        "Metaverse"
+      ],
+      "artwork": "images/PHIL2656.png"
+    },
+    {
+      "programme": "Philosophy (SoH)",
+      "code": "PHIL2220",
+      "title": "The mind",
+      "description_brief": "Investigate the deepest mysteries of human consciousness, exploring whether artificial intelligence can feel emotions, possess selfhood, or truly replicate the human mind.",
+      "description": "The human mind is the nexus of a number of great mysteries. What is the nature of self? Is the mind identical to the brain, or is it an immaterial substance? Is Artificial Intelligence possible, and can computers experience emotions and other feelings? Are our actions free, or are they determined by our genes and upbringing? We shall be exploring some of these issues and other related topics in this course.",
+      "qr": "Philosophy",
+      "website": "",
+      "keyword": [
+        "Human Mind",
+        "Consciousness",
+        "Free Will",
+        "AI & Emotion",
+        "Brain & Identity"
+      ],
+      "artwork": "images/PHIL2220.png"
+    },
+    {
+      "programme": "Philosophy (SoH)",
+      "code": "PHIL2653",
+      "title": "The ethics and philosophy of digital technologies",
+      "description_brief": "Tackle the urgent ethical challenges of new digital tech—from AI fairness and algorithmic bias to fake news—empowering you to design responsible, human-centered innovations.",
+      "description": "New digital technologies, from driverless cars to twitter to facial recognition software, pose a variety of new philosophical and ethical challenges. What are these challenges, and how can we respond to them to ensure informed and responsible innovation? This course will consider case studies covering three broad philosophical/ethical themes: (1) fairness in AI systems, (2) fake news and epistemic infrastructure, and (3) bias and discrimination in the digital age.",
+      "qr": "Philosophy",
+      "website": "",
+      "keyword": [
+        "Tech Ethics",
+        "AI Fairness",
+        "Algorithmic Bias",
+        "Privacy & Surveillance",
+        "Fake News"
+      ],
+      "artwork": "images/PHIL2653.png"
+    },
+    {
+      "programme": "Global and Area Studies (SMLC)",
+      "code": "GLAS2001",
+      "title": "Research methods in Global and Area Studies",
+      "description_brief": "Master data-driven research methods and AI tools to critically evaluate sources, verify facts, and navigate global information in an oversaturated digital world.",
+      "description": "[Revised course description for 2026/27]\nThis course is intended to introduce Global and Area Studies majors to research methods. Qualitative, quantitative, and/or data-oriented methods and examined in detail, with a focus on the uses of AI. Theoretical frameworks informing different practices of research, including AI, are examined. Students will learn to think critically about the data underlying arguments, to check its sourcing and veracity, and to remain vigilantly sceptical amid an oversaturation of information. Students will differentiate between primary and secondary sources, learn to navigate print and online library sources, electronic databases, reference material, and archives, engage with a variety of online data tools, including AI and non-AI software, and develop their abilities to share, present, and discuss their findings in writing, via in-person presentation, and through viva voce assessment. Students in the course are set a broad, shared topic for research and provided a variety of primary sources, secondary sources, and datasets with which to begin their work. In class-activities focus on discussion of previously completed out-of-classroom assignments, allowing for open discussions about how students completed them, so that students can learn from each other's achievements and setbacks as well as the ways their classmates responded those setbacks.",
+      "qr": "GLAS2001",
+      "website": "",
+      "keyword": [
+        "Research Methods",
+        "Fact-Checking",
+        "AI Research Tools",
+        "Data Literacy",
+        "Global Studies"
+      ],
+      "artwork": "images/GLAS2001.png"
+    },
+    {
+      "programme": "Global and Area Studies (SMLC)",
+      "code": "GLAS2101",
+      "title": "Art, time, and new media",
+      "description_brief": "Examine the human mind through computational lenses, exploring how neural networks, language, and computer science inform our understanding of consciousness and human behavior.",
+      "description": "This course approaches an examination of contemporary artistic practice, time, and new media from an interdisciplinary and transnational perspective. How, in recent artworks, is time evoked and denied, measured and transformed, linear and looped? How has an interrogation of speed, duration, and scale become interwoven with a consideration of art and new media from the late 1960s till today? How has contemporary telecommunication (instant, real time) altered time in a finite world? How has telepresence shifted how we conceive of the space-time duality? Why do we conceive of time in economic terms: “spend” time, “waste” time, “free” time? As Jonathan Crary argues, the era of late capitalism’s non-time operates on a twenty-four-hour clock in which management of attentiveness and the impairment of perception combine with compulsory routines and mimesis. This encourages a revisitation of the history of perceiving and communicating with and through various media of the last century. This class interrogates the intersections of art, time, and new media within a broader consideration of historical, technological, and labour-based revolutions and theoretical shifts.",
+      "qr": "GLAS2101",
+      "website": "https://www.glas.hku.hk/global-courses",
+      "keyword": [
+        "Contemporary Art",
+        "New Media",
+        "Digital Art",
+        "Visual Culture",
+        "Time & Technology"
+      ],
+      "artwork": "images/GLAS2101.png"
+    },
+    {
+      "programme": "Global and Area Studies (SMLC)",
+      "code": "GLAS3101",
+      "title": "Interculturality in a virtual world",
+      "description_brief": "Harness computational text analysis and global virtual platforms to study cultural identity, equipping you to lead cross-cultural collaborations across international digital networks.",
+      "description": "To operate successfully in today’s globalized environments, intercultural communication competence has become vital skill sets. This internationally focused course discusses the concept of interculturality and dynamics of identity in regard to a global and virtual world. Students will explore and question the concept of mobility, virtual mobility, internationalisation, diversity of cultural expressions, global citizenship. Students will learn to search through large collections of sources using text analysis and discourse analysis as well as presenting their research in an e-visual format. Through participation in a dynamic and interactive problem-based project, students will develop strategies of the equitable interaction of diverse cultures. Collaboration will be developed online with students enrolled in universities in Europe. Students will have the opportunity to choose the language of this online collaboration among four language options: English, French, German or Spanish.",
+      "qr": "GLAS3101",
+      "website": "https://www.glas.hku.hk/global-courses",
+      "keyword": [
+        "Cross-Cultural Communication",
+        "Virtual Exchange",
+        "Global Citizenship",
+        "Online Collaboration",
+        "Cultural Identity"
+      ],
+      "artwork": "images/GLAS3101.png"
+    },
+    {
+      "programme": "Global and Area Studies (SMLC)",
+      "code": "GLAS2109",
+      "title": "Practically joking: Humour and the creative impulse",
+      "description_brief": "Explore viral internet culture, memes, and AI-generated jokes across global borders, uncovering what machine comedy reveals about human identity, culture, and society.",
+      "description": "What does the phrase ‘practically joking’ mean to you? Is it a prank? Does it mean joking for a practical purpose? Is it almost a joke, something at the threshold but not quite there? Philosopher Simon Critchley argues that a person aligns themself with a community based on how they experience humour. We have all giggled at puns, satires, caricatures, jokes, parodies, cartoons, pranks, and more, but do we ever stop and think about how and why such humour operates? Why are some jokes able to cross social and cultural borders while others only translate to a select few? And is laughter a required by-product of a joke, or is it simply one of many possible reactions? This course takes humour seriously. Seriously, this is not a joke. The class considers how humour intersects with the visual, performative, textual, filmic, and even legal (indeed, laws and rules are the substrate of much humour). We look at everything from cartoons, paintings, and performances to memes and viral jokes, and we consider the shifting nature of humour in a post-internet era of instantaneity. If humour is what makes us human, what does it mean when an AI formulates a joke and people laugh?",
+      "qr": "GLAS2109",
+      "website": "https://www.web.smlc.hku.hk/global-area-studies",
+      "keyword": [
+        "Internet Memes",
+        "Humor Studies",
+        "Pop Culture",
+        "AI & Creativity",
+        "Viral Trends"
+      ],
+      "artwork": "images/GLAS2109.png"
+    },
+    {
+      "programme": "Japanese Studies (SMLC)",
+      "code": "JAPN2074",
+      "title": "China in the Japanese Literary Imagination",
+      "description_brief": "Explore Japanese literature through a modern lens, mastering AI tools to support deep textual analysis and digital research in cross-cultural literary studies.",
+      "description": "This course offers an introduction to Japanese literary negotiations with “China,” the “Chinese” and “Chineseness,” ranging from celebration of shared cultural practices and aestheticization of China to nativist resistance to Chinese cultural hegemony. Readings mostly consist of primary literary texts in translation, but relevant critical, and historical references are also assigned. Some assignments will engage students in using AI tools to support literary analysis, research development, and interpretive work, helping them to critically apply digital methods in the study of literature.",
+      "qr": "Japanese Studies",
+      "website": "https://japanese.hku.hk/programme.html",
+      "keyword": [
+        "Japanese Literature",
+        "Comparative Literature",
+        "Cross-Cultural Studies",
+        "AI Analysis",
+        "Asian Culture"
+      ],
+      "artwork": "images/JAPN2074.png"
+    },
+    {
+      "programme": "Japanese Studies (SMLC)",
+      "code": "JAPN2075",
+      "title": "Introduction to postwar and contemporary Japanese literature",
+      "description_brief": "Analyze modern Japanese narratives while leveraging AI-assisted digital methods to generate fresh interpretations and conduct advanced literary research.",
+      "description": "This course is an introduction to the literature from postwar and contemporary Japan between the late 1940s and the 2020s. Students will read a diverse range of literary texts by writers from different backgrounds. Through close readings of novellas and short stories, the class explores a variety of themes relevant to the narratives and their historical contexts. All readings will be provided in English translation. Some assignments will incorporate the use of AI for tasks to enhance students’ understanding of digital approaches to literary study and how to integrate AI-assisted insights into their interpretations and research projects.",
+      "qr": "Japanese Studies",
+      "website": "",
+      "keyword": [
+        "Japanese Literature",
+        "Modern Japan",
+        "Storytelling",
+        "AI in Humanities",
+        "Cultural Studies"
+      ],
+      "artwork": "images/JAPN2075.png"
+    },
+    {
+      "programme": "Japanese Studies (SMLC)",
+      "code": "JAPN3079",
+      "title": "Japanese to Chinese Translation",
+      "description_brief": "Master Japanese-to-Chinese translation by critically auditing AI models, learning to outperform machine translation in cultural nuance, honorifics, and context.",
+      "description": "This course develops advanced skills in translating authentic Japanese materials into fluent Chinese. Students will practice with real-world texts (e.g., interviews, advertisements, magazine articles) to accurately decipher meaning and avoid cultural misunderstandings. A key focus is on critically engaging with machine translation: students will learn to leverage AI tools while identifying and correcting their limitations in handling contextual nuances, honorifics, and culture-specific concepts. The course aims to produce culturally insightful translators who can outperform AI-generated results.",
+      "qr": "Japanese Studies",
+      "website": "",
+      "keyword": [
+        "Japanese Language",
+        "Translation",
+        "Machine Translation",
+        "AI Editing",
+        "Bilingual Skills"
+      ],
+      "artwork": "images/JAPN3079.png"
+    },
+    {
+      "programme": "Japanese Studies (SMLC)",
+      "code": "JAPN4022",
+      "title": "Introduction to Teaching Japanese as a Foreign Language",
+      "description_brief": "Combine language pedagogy with AI-powered lesson planning and digital tools to design interactive, tech-driven Japanese language learning experiences.",
+      "description": "\nJAPN4022 Introduction to Teaching Japanese as a Foreign Language \nThis Japanese-medium course introduces principles and practices of teaching Japanese as a foreign language. It develops foundational knowledge in applied linguistics, second language acquisition, course design, and classroom methodology. Through lectures, discussions, and active participation, students learn to set clear instructional objectives, analyze key issues in language education, and evaluate current Japanese language teaching practices. Practical components include at least two hours of classroom observation, preparation of a detailed lesson plan, and a mock lesson with peer and instructor feedback. The course integrates digital and AI-supported tools for materials design, learner engagement, and lesson planning, with guidance on ethical and privacy-aware use. Students practice creating short lecture videos for flipped learning, using quick game-based quizzes, and refining classroom techniques. The course addresses gender, sexuality, and language diversity, and promotes inclusive teaching and reflective practice. Skills developed are transferable to other subjects and professional contexts, including communication, collaboration, project management, evaluation, and digital content creation. By the end of the course, students can explain key theories, assess methods critically, teach from self-prepared plans, and communicate effectively with diverse audiences in Japanese, strengthening readiness for careers in education and related fields.",
+      "qr": "Japanese Studies",
+      "website": "",
+      "keyword": [
+        "Language Teaching",
+        "Japanese Pedagogy",
+        "Education Tech",
+        "AI Lesson Planning",
+        "Classroom Skills"
+      ],
+      "artwork": "images/JAPN4022.png"
+    },
+    {
+      "programme": "Japanese Studies (SMLC)",
+      "code": "JAPN4099",
+      "title": "Japanese language IV (Part 2): Capstone experience",
+      "description_brief": "Analyze modern Japanese narratives while leveraging AI-assisted digital methods to generate fresh interpretations and conduct advanced literary research.",
+      "description": "\nJAPN4099 Japanese language IV (Part 2) is for students who have completed JAPN4088 or have a similar level of proficiency in Japanese. Delivered through lecture and tutorial, the course advances integrated reading, writing, speaking, and listening with authentic materials, seminar-style discussion, and project-based tasks, while continuously applying skills from JAPN4088. As a capstone in the Japanese Language Programme, students synthesize their learning history and articulate post-graduation plans for work, further study, or civic engagement in Japan-related contexts. Students will learn to use AI tools to support brainstorming and idea development, and to plan and produce video-based presentations, with explicit guidance on ethical and responsible use. Typical components include domain-specific readings, professional writing in Japanese, mock interviews, a reflective portfolio, and a final video presentation. When taken beyond core language credit requirements, it counts as a Japanese language elective. Credit transfer is not accepted.",
+      "qr": "",
+      "website": "",
+      "keyword": [
+        "Advanced Japanese",
+        "Capstone Project",
+        "Professional Japanese",
+        "Video Presentation",
+        "Career Skills"
+      ],
+      "artwork": "images/JAPN4099.png"
+    },
+    {
+      "programme": "Japanese Studies (SMLC)",
+      "code": "JAPN4101",
+      "title": "Japanese Studies research project: Capstone experience",
+      "description_brief": "Conduct independent research in Japanese Studies while mastering the ethical use of AI tools for academic writing, data synthesis, and final presentations.",
+      "description": "\nThe Japanese Studies research project will allow students to pursue independent research under the supervision of a Japanese Studies teacher. The course is designed to provide students with the opportunity to explore in depth a topic related to Japanese Studies. They may choose to adopt a disciplinary approach (e.g. history, politics, literature, film, anthropology) or engage in a multi-disciplinary approach, depending on the nature of the question or issue of inquiry. This course will also introduce how to use AI tools for academic writing, research, and presentation in an ethical way. Students wishing to take this capstone course should consult with a teacher who is willing to supervise them before enrolling. Students must also complete a research proposal template and submit to their proposed supervisor before the beginning of semester.",
+      "qr": "Japanese Studies",
+      "website": "",
+      "keyword": [
+        "Japanese Studies",
+        "Independent Research",
+        "Capstone",
+        "Academic Writing",
+        "AI Research Tools"
+      ],
+      "artwork": "images/JAPN4101.png"
+    },
+    {
+      "programme": "Korean Studies (SMLC)",
+      "code": "KORE3040",
+      "title": "Presenting Opinions in Korean",
+      "description_brief": "Boosts your Korean speaking skills while using AI tools and image generation to brainstorm ideas, create awareness-raising posters, and practice expressing opinions on personal and global topics.",
+      "description": "\nThis course aims to enhance the Korean speaking proficiency of upper-intermediate students while actively integrating AI tools into the learning process. Students will explore a range of topics—from personal experiences to global issues—through structured input and learning of relevant expressions. Each topic leads to discussion-based activities where students present their thoughts through individual or group presentations. The course also includes a creative project, such as social awareness-raising poster-making using AI-generated images. Students will collaborate with AI to develop their ideas and engage in meaningful discussion in Korean.",
+      "qr": "Korean_Studies",
+      "website": "https://korean.hku.hk/curriculum",
+      "keyword": [
+        "Korean Speaking",
+        "Public Speaking",
+        "AI Image Generation",
+        "Presentation Skills",
+        "Korean Language"
+      ],
+      "artwork": "images/KORE3040.png"
+    },
+    {
+      "programme": "Korean Studies (SMLC)",
+      "code": "KORE3041",
+      "title": "Chinese-Korean translation",
+      "description_brief": "Builds advanced Chinese–Korean translation skills by critically working with machine translation and AI tools, teaching you to correct their errors and produce culturally accurate, high-quality Korean texts.",
+      "description": "\nThis course is designed to offer students practical experience in translating from Chinese into Korean across various textual genres. It provides opportunities to identify and analyze the distinctive linguistic features of both languages. Students will develop strategies to address challenges arising from differences between two languages and produce well-constructed Korean texts. Furthermore, students will critically engage with machine translation and AI tools by interpreting and analyzing their outputs, fostering both translation proficiency and AI literacy. Throughout the course, students will enhance their written Korean communication skills, expand their translation skills, and develop an understanding of integrating AI technologies into translation practice. The Chinese texts used will be in simplified Chinese characters.",
+      "qr": "Korean_Studies",
+      "website": "https://korean.hku.hk/curriculum",
+      "keyword": [
+        "Korean Language",
+        "Chinese-Korean Translation",
+        "Machine Translation",
+        "AI Editing",
+        "Bilingual Writing"
+      ],
+      "artwork": "images/KORE3041.png"
+    },
+    {
+      "programme": "Korean Studies (SMLC)",
+      "code": "KORE4007",
+      "title": "Advanced Korean individual project (capstone experience)",
+      "description_brief": "Create a research project while actively using AI tools for research, writing and presentation, building ethical AI literacy in Korean.",
+      "description": "\nAs the capstone course of the Korean language programme, this course provides students with the opportunity to do an in-depth analysis of an approved topic and format, i.e. research paper, documentary video, presentation, etc., of their choice, integrating the language skills and cultural knowledge they have acquired during their studies. This course also introduces an active and ethical use of Artificial Intelligence (AI) tools in academic research, writing, and presentation, guided by the instructor or project advisor. The process will include discussions of AI-driven products and guiding students to build stronger AI literacy. These individually supervised projects must be in Korean. Students are required to obtain their supervisor’s approval for the topic, the research plan, and the details of the format for the project that they wish to conduct at the beginning of the course. Contact hours are minimal because students spend much of their time on the individual project.",
+      "qr": "Korean_Studies",
+      "website": "https://korean.hku.hk/curriculum",
+      "keyword": [
+        "Advanced Korean",
+        "Independent Project",
+        "Capstone",
+        "AI Literacy",
+        "Video Production"
+      ],
+      "artwork": "images/KORE4007.png"
+    },
+    {
+      "programme": "Korean Studies (SMLC)",
+      "code": "KORE4008",
+      "title": "Korean Studies independent research project (capstone experience)",
+      "description_brief": "Teaches you to use AI tools ethically in academic writing, research and presentations, strengthening AI literacy alongside deep area studies knowledge.",
+      "description": "\nStudents in this course pursue independent research and produce a research project, normally a research essay, under the supervision of a teacher in Korean Studies. This course is designed to provide students with the opportunity to explore in-depth a topic of interest to them in relation to Korean society and culture. This course also introduces an active and ethical use of Artificial Intelligence (AI) tools in academic research, writing, and presentation, guided by the instructor or project advisor. The process will include discussions of AI-driven products and guiding students to build stronger AI literacy. Students are required to obtain their supervisor’s approval for the topic. Individual meetings with the supervisor will be scheduled in the first week of the semester, and contact hours are minimal because students spend much of their time on individual projects. Students will be encouraged to engage with original texts written in Korean, although the class will be conducted in English and assignments should be written in English.",
+      "qr": "Korean_Studies",
+      "website": "https://korean.hku.hk/curriculum",
+      "keyword": [
+        "Korean Studies",
+        "Independent Research",
+        "Capstone Essay",
+        "AI Research Tools",
+        "Korean Society"
+      ],
+      "artwork": "images/KORE4008.png"
+    },
+    {
+      "programme": "Korean Studies (SMLC)",
+      "code": "KORE4009",
+      "title": "Korean Studies research seminar (capstone experience)",
+      "description_brief": "Uses AI tools ethically for research, writing and presentations, strengthening AI literacy while exploring Korean history, film, literature and culture.",
+      "description": "This is a small-group research seminar course and also a capstone experience for students in their final year. This course explores aspects of Korean history, film, literature, culture and society at an advanced level. The specific area of study may vary from year to year depending on students’ background, interests and the expertise of the instructor. Students will have topic-focused workshops, intensive group meetings, and also pursue a small research project. This course also introduces an active and ethical use of Artificial Intelligence (AI) tools in academic research, writing, and presentation, guided by the instructor or project advisor. The process will include discussions of AI-driven products and guiding students to build stronger AI literacy. Students will be encouraged to engage with original texts written in Korean, although the class will be conducted in English and assignments should be written in English.",
+      "qr": "Korean_Studies",
+      "website": "https://korean.hku.hk/curriculum",
+      "keyword": [
+        "Korean Film & Cinema",
+        "Korean Culture",
+        "Literature",
+        "Capstone Seminar",
+        "AI Literacy"
+      ],
+      "artwork": "images/KORE4009.png"
+    },
+    {
+      "programme": "Buddhist Studies (CBS)",
+      "code": "BSTC2021",
+      "title": "Buddhist ethics",
+      "description_brief": "Apply ancient Buddhist wisdom to modern ethical frontiers like AI and technology, empowering you to navigate complex moral dilemmas through a mindful, human-centered lens.",
+      "description": "Buddhism assigns ethics a crucial place in the daily life of its practitioners and their pursuit of the final spiritual goal. This course introduces students to core doctrines and teachings that underpin Buddhist ethical approaches alongside several essential Buddhist social, ritual and contemplative practices aimed at nurturing an ethical disposition. Through the lens of Buddhist perspectives, it critically explores a range of contemporary ethical issues, including animals and the environment, war and violence, sex and gender, abortion, suicide, and euthanasia, and AI. The course also fosters a historically informed understanding of lived approaches to ethical issues across diverse Buddhist traditions, cultures and societies. Students will analyse complex ethical issues using insights from Buddhist teachings, refining their skills in critically evaluating ethical discourse.",
+      "qr": "BSTC2021",
+      "website": "https://www.buddhism.hku.hk/ap/ug/courses/",
+      "keyword": [
+        "Buddhist Philosophy",
+        "Ethics & Morality",
+        "Mindfulness",
+        "Bioethics",
+        "AI Ethics"
+      ],
+      "artwork": "images/BSTC2021.png"
+    },
+    {
+      "programme": "Global Creative Industries",
+      "code": "GCIN2012",
+      "title": "Introduction to video games studies",
+      "description_brief": "Decode the video game industry by critically analyzing how interactive digital mediums and gaming technologies intersect with society, economics, and gender in today's tech-driven cultural landscape.",
+      "description": "This course is an introduction to the exciting new field of video game studies. The course starts with tracing the historical background and recent development of the video game industry, followed by discussions on the major methods and approaches used to analyze video games as a cultural product. Through in-depth and comparative study of video games in social, economic, aesthetic, psychological, and gender perspectives, the course aims to engage students in a critical discourse on the major debates surrounding the medium.",
+      "qr": "Global_Creative_Industries",
+      "website": "https://hkums.hku.hk/gcin-programme/",
+      "keyword": [
+        "Video Games",
+        "Game Industry",
+        "Creative Industries",
+        "Gaming Culture",
+        "Media Studies"
+      ],
+      "artwork": "images/GCIN2012.png"
+    },
+    {
+      "programme": "Global Creative Industries",
+      "code": "GCIN2029",
+      "title": "Understanding video games: How to design popular culture",
+      "description_brief": "Explore how digital gaming technology intersects with art, politics, and economics, empowering you to critically analyze how interactive virtual worlds reflect and shape our broader cultural values.",
+      "description": "The course looks at how elements in video games are drawn from existing popular culture and other cultural products, and focuses in particular on the socio-cultural relations linking gaming with social values, cultural beliefs, art and literature, politics, and money. It is taught primarily by lectures and class work, and is attentive to both commercial and independent video games, comparing what we find there with elements found in other established forms of culture, modern or traditional, commercialized or independent. It thus looks at how video games are embedded in a larger and deeper context of cultural organization and practices that brings together different worlds, and tries to explain why they took a certain form, and why they are so popular and successful.",
+      "qr": "Global_Creative_Industries",
+      "website": "https://hkums.hku.hk/gcin-programme/",
+      "keyword": [
+        "Video Games",
+        "Game Design",
+        "Pop Culture",
+        "Virtual Worlds",
+        "Creative Economy"
+      ],
+      "artwork": "images/GCIN2029.png"
+    },
+    {
+      "programme": "Global Creative Industries",
+      "code": "GCIN2035",
+      "title": "Digital economy, media and entertainment",
+      "description_brief": "Master the digital economy by exploring how technological advancements like visual effects, live-streaming, and digital platforms disrupt global media production and entertainment consumption.",
+      "description": "This course provides a critical introduction to the latest development of the media and entertainment industries in the digital economy. It introduces the key approaches and perspectives to the study of the global media and entertainment industries. It invites students to examine the impact of digitalization on the production, circulation, consumption and regulation of media and entertainment content. It also interrogates the changing organization and management of the media and entertainment industries. Drawing on international and especially Asian cases, the course explains the emergence of the major digital entertainment forms today including social media, video games, online videos and live-streaming and digital animation and visual effects.",
+      "qr": "Global_Creative_Industries",
+      "website": "https://hkums.hku.hk/gcin-programme/",
+      "keyword": [
+        "Digital Economy",
+        "Entertainment Industry",
+        "Streaming & Video",
+        "Animation & VFX",
+        "Media Management"
+      ],
+      "artwork": "images/GCIN2035.png"
+    },
+    {
+      "programme": "Global Creative Industries",
+      "code": "GCIN2038",
+      "title": "Entertainment markets and digital audiences in Asia",
+      "description_brief": "Investigate how digital technologies and platforms transform passive viewers into active creators, equipping you to navigate algorithmic markets and user-driven entertainment in the digital economy.",
+      "description": "How the production, circulation and consumption of the entertainment content have been changed in the digital economy will be examined in this course and it highlights the changing role of audiences in the entertainment industries. The course will start with some of the core concepts and critical perspectives needed to understand the entertainment market in digital economy. By critically analyzing various case studies of the entertainment industries in Asia, it will then explore how digital technology have transformed but also established the entertainment markets. In the last part of the course, it will identify the various representations of digital audiences in the entertainment industries and investigate how the role of digital audiences has changed from the passive actors to the active participants involved in the digital entertainment industries. The assessment task enables students to develop a broad grasp of the general contextual circumstances of digital economy within which entertainment industries and markets organize and operate, and so is relevant to the role of digital audiences.",
+      "qr": "Global_Creative_Industries",
+      "website": "https://hkums.hku.hk/gcin-programme/",
+      "keyword": [
+        "Asian Entertainment",
+        "Digital Audiences",
+        "Fandom Culture",
+        "Content Creators",
+        "Media Markets"
+      ],
+      "artwork": "images/GCIN2038.png"
+    },
+    {
+      "programme": "Humanities and Digital Technologies",
+      "code": "HUDT1001",
+      "title": "Foundations of Humanities and Digital Technologies",
+      "description_brief": "Harness cultural analytics and computational methods to decode human culture, providing a critical lens to understand data materiality and our rapidly evolving digital society.",
+      "description": "This course provides an immersive exploration of how digital technologies enhance traditional humanities disciplines while also offering a humanistic lens for understanding today’s information society. The modules are designed to showcase how scholars from diverse disciplines have integrated their core research questions with digital media and computational methods, achieving varying degrees of success. Topics to be covered include distant reading, the digital dark age, data materiality, and cultural analytics. Students will cultivate a nuanced understanding of the scholarly disagreements and debates in various digital humanities subfields.",
+      "qr": "Humanities_and_Digital_Technologies",
+      "website": "https://hdt.arts.hku.hk/curriculum-structure",
+      "keyword": [
+        "Digital Humanities",
+        "Cultural Analytics",
+        "Information Society",
+        "Data & Culture",
+        "Digital Media"
+      ],
+      "artwork": "images/HUDT1001.png"
+    },
+    {
+      "programme": "Humanities and Digital Technologies",
+      "code": "HUDT1002",
+      "title": "Essential Methods in Humanities and Digital Technologies",
+      "description_brief": "Master hands-on Python coding, text mining, and machine learning, equipping you with essential technical skills to analyze and visualize data-driven humanities research.",
+      "description": "This hands-on course delves into the creation, authentication, visualisation, analysis, interpretation, curation, and archiving of digitised and born-digital materials in the humanities. Students will gain an introductory understanding of how digital devices and ICT infrastructure function, along with essential skills in Python programming and relevant software. Key methods to be covered include database design, text mining, topic modelling, spatial visualisation, network analysis, and machine learning. This methodological training will culminate in a final team project, where students are expected to integrate theoretical insights with technical proficiency in the humanities and digital technologies.",
+      "qr": "Humanities_and_Digital_Technologies",
+      "website": "https://hdt.arts.hku.hk/curriculum-structure",
+      "keyword": [
+        "Python Programming",
+        "Text Mining",
+        "Machine Learning",
+        "Data Visualization",
+        "Digital Humanities"
+      ],
+      "artwork": "images/HUDT1002.png"
+    },
+    {
+      "programme": "Humanities and Digital Technologies",
+      "code": "HUDT2100",
+      "title": "Emerging Trends and Trajectories in Digital Practices",
+      "description_brief": "Apply advanced AI, virtual reality, and digital twins to real-world creative industries, building a high-impact portfolio in cultural preservation and digital media.",
+      "description": "This course offers advanced exploration of digital practices, providing students with a deeper understanding of the tools involved. By engaging in themed and topical projects within specific disciplines, students can refine their interests for capstone projects and internship opportunities. These disciplines include but are not limited to archival and data retrieval, heritage and cultural preservation, virtual reality, media creation, artificial intelligence, creative industries, digital twins for industries, design, and game culture.",
+      "qr": "Humanities_and_Digital_Technologies",
+      "website": "https://hdt.arts.hku.hk/curriculum-structure",
+      "keyword": [
+        "Virtual Reality",
+        "Artificial Intelligence",
+        "Digital Twins",
+        "Creative Tech",
+        "Cultural Preservation"
+      ],
+      "artwork": "images/HUDT2100.png"
+    },
+    {
+      "programme": "Humanities and Digital Technologies",
+      "code": "HUDT3001",
+      "title": "Advanced Topics in Humanities and Digital Technologies",
+      "description_brief": "Critically analyze the societal impact of AI, blockchain, and the metaverse, empowering you to evaluate ongoing technological disruptions through a human-centered lens.",
+      "description": "This course invites students to engage with the transformative impact of big data, artificial intelligence, blockchain, the metaverse, and smart sensors from a humanities perspective. Recognising that the digital transformation of society is still in its early stages, it encourages students to look ahead to the coming decades with a global and critical understanding of the ongoing societal disruptions caused by these emerging technologies. Topics to be covered include archives of the future, gamification, the energetics of big data, the philosophy of real time, and decentralised ledgers. Students will collaborate in teams to develop final research projects based on these themes and reflect on the current and future directions of the digital humanities.",
+      "qr": "Humanities_and_Digital_Technologies",
+      "website": "https://hdt.arts.hku.hk/curriculum-structure",
+      "keyword": [
+        "Metaverse",
+        "Blockchain",
+        "Big Data",
+        "Future Tech",
+        "Gamification"
+      ],
+      "artwork": "images/HUDT3001.png"
+    },
+    {
+      "programme": "Humanities and Digital Technologies",
+      "code": "HUDT3100",
+      "title": "Internship in Humanities and Digital Technologies",
+      "description_brief": "Apply your digital humanities skills in real-world professional environments, bridging AI-era data management and creative tech with industry experience.",
+      "description": "This internship course provides students with an opportunity to broaden their undergraduate education through experiential learning. Students will acquire invaluable work experience, hone transferrable skills for a wide range of careers, and develop sharper awareness of the intersections between humanities and digital technologies in the workplace. Students enrolled into the course might work on research, fact checking, interviewing people, grant-writing and fund-raising, event management, writing documents, reports or copy for publication, translation and communication, interpersonal speaking and writing, networking and outreach, data management, text encoding and/or database construction, website creation, social media management, or project development. At the end of the internship, students will submit a written report (approximately 2,000 words) on work/project(s) conducted during the internship and a critical reflection on the internship experience, signed by the organisation contact. The report should reflect on how their interdisciplinary training integrates with the workplace experience, and how the experience enhances their personal development and growth, including whether the experience has helped them identify their strengths and areas in need of improvement. During the semester, students will meet with the course supervisor at least twice to discuss the internship progress and the written report. The assessment of their performance is not based on specific assignments but their ongoing workplace experience, the evaluation provided by the host organisation, as well as the written report. This course is credit-bearing but will not be counted in the calculation of CGPA as it is graded on a pass/fail basis.",
+      "qr": "Humanities_and_Digital_Technologies",
+      "website": "https://hdt.arts.hku.hk/curriculum-structure",
+      "keyword": [
+        "Internship",
+        "Work Experience",
+        "Data Management",
+        "Social Media",
+        "Career Development"
+      ],
+      "artwork": "images/HUDT3100.png"
+    },
+    {
+      "programme": "Humanities and Digital Technologies",
+      "code": "HUDT4001",
+      "title": "Research Project in Humanities and Digital Technologies (Capstone Experience)",
+      "description_brief": "Design and develop an innovative digital project or original research, combining your technical expertise and humanistic insight into a standalone capstone showcase.",
+      "description": "This final-year project enables students to pursue their individual interests in any aspect of the intersection between humanities and digital technologies under the supervision of a faculty member. While students may choose the research route of producing an extended essay of approximately 5,000 words (supported by research with a strong digital component), this capstone experience explicitly encourages creativity and innovation, and (subject to the approval of the course coordinator and supervisor), students may be approved to undertake a creative or digital development project. If the latter option is chosen, students will also submit a written report (approx. 2,000 words) on their project, describing and reflecting on the process of their work. Students are expected to meet with their supervisors regularly and to present their work-in-progress to their supervisors in the course of the semester.",
+      "qr": "Humanities_and_Digital_Technologies",
+      "website": "https://hdt.arts.hku.hk/curriculum-structure",
+      "keyword": [
+        "Capstone Project",
+        "Digital Innovation",
+        "Independent Research",
+        "Creative Tech",
+        "Portfolio Project"
+      ],
+      "artwork": "images/HUDT4001.png"
+    },
+    {
+      "programme": "Humanities and Digital Technologies",
+      "code": "HUDT2205",
+      "title": "eXtended Reality (XR) in the Humanities",
+      "description_brief": "Build 3D models and immersive VR/AR worlds, discovering how extended reality revolutionizes cultural heritage, artistic creation, and the future experience economy.",
+      "description": "eXtended Reality (XR), encompasses the range of three-dimensional (3D) digital-visual technologies that include Virtual Reality (VR), Augmented Reality (AR), and Mixed Reality (MR). XR provides users with immersive visual experiences by placing computer graphics into their view. XR has become vital in transforming many fields, including entertainment, learning, training, and industrial production pipelines. Within the humanities, XR's immersive experiences have the potential to reshape human cultural landscapes and our interaction with the arts. In this course, students will gain insights into the emerging landscape of the experience economy and further investigate the new ecology of this economy, its components, and their implications for humanity's future. Students will gain some experience with creating 3D models and building immersive experiences for the humanities while experimenting with the latest hardware. We will explore how XR technologies can change the way we research and teach about the humanities, such as exploring reconstructed ancient sites in archaeology or experiencing virtual music in 360 degrees, or yet how history may be archived or investigated. Students are encouraged to critically examine the socio-cultural changes brought about by these technological paradigms.",
+      "qr": "Humanities_and_Digital_Technologies",
+      "website": "https://hdt.arts.hku.hk/curriculum-structure",
+      "keyword": [
+        "Virtual Reality (VR)",
+        "Augmented Reality (AR)",
+        "Extended Reality (XR)",
+        "3D Modeling",
+        "Immersive Tech"
+      ],
+      "artwork": "images/HUDT2205.png"
+    },
+    {
+      "programme": "Centre for Applied English Studies",
+      "code": "CAES2002",
+      "title": "Online Digital Storytelling in English",
+      "description_brief": "Master digital storytelling and video production tools to empower global learners, building high-impact digital communication skills for future leadership roles in HKU's Digital Literacy Lab.",
+      "description": "CAES2002 is a 6-credit free elective course taught online.  Students in this course learn the Digital Storytelling method of creating video-based personal narratives before delivering workshops to less-privileged learners outside of Hong Kong.  The course focuses on developing a range of skills associated with digital and online communication.   Upon completion of this course, high-achieving students are highly encouraged to apply for Peer Consultant posts in the Digital Literacy Lab.",
+      "qr": "CAES2002",
+      "website": "https://handbook.hku.hk/ug/full-time-2021-22/academicsupport-units/centre-for-applied-english-studies.html",
+      "keyword": [
+        "Digital Storytelling",
+        "Video Production",
+        "English Communication",
+        "Online Media",
+        "Creative Narrative"
+      ],
+      "artwork": "images/CAES2002.png"
+    }
+  ]
+]
