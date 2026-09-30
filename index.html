@@ -119,7 +119,8 @@
       element.classList.remove('artwork-surface');
       if (course && course.artwork) {
         element.classList.add('artwork-surface');
-        element.style.setProperty('--course-artwork', `url("${course.artwork}")`);
+        const artworkUrl = new URL(course.artwork, document.baseURI).href;
+        element.style.setProperty('--course-artwork', `url("${artworkUrl}")`);
       }
     }
 
