@@ -186,8 +186,30 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
+      flex-wrap: wrap;
+      gap: 0.75rem;
       padding: 0 0.5rem 1rem 0.5rem;
       border-bottom: 1px solid var(--border-cyan);
+    }
+
+    .btn-shuffle {
+      padding: 0.45rem 0.8rem;
+      border: none;
+      border-radius: 50px;
+      background: var(--accent-cyan);
+      color: var(--bg-dark);
+      font: inherit;
+      font-size: 0.85rem;
+      font-weight: 700;
+      cursor: pointer;
+      box-shadow: 0 0 16px rgba(0, 240, 255, 0.35);
+      transition: all 0.3s ease;
+    }
+
+    .btn-shuffle:hover {
+      transform: translateY(-2px);
+      background: linear-gradient(135deg, var(--accent-cyan), #78FBFF);
+      box-shadow: 0 0 22px rgba(0, 240, 255, 0.45), 0 0 30px rgba(255, 42, 133, 0.18);
     }
 
     .counter-badge {
@@ -229,6 +251,9 @@
       box-shadow: 0 4px 18px rgba(0, 0, 0, 0.4), inset 0 0 14px rgba(0, 240, 255, 0.08);
       color: var(--text-primary);
       transition: border-color 0.3s, box-shadow 0.3s, transform 0.2s;
+      hyphens: auto;
+      -webkit-hyphens: auto;
+      overflow-wrap: break-word;
     }
 
     .bubble:hover {
@@ -246,6 +271,8 @@
     .action-bar {
       display: flex;
       justify-content: center;
+      flex-wrap: wrap;
+      gap: 0.75rem;
       margin-top: 1.5rem;
     }
 
@@ -743,6 +770,17 @@
     }
 
     .btn-recommend:hover:not(:disabled) {
+      background: linear-gradient(135deg, #f05c54, #d94740);
+      box-shadow: 0 0 22px rgba(208, 60, 53, 0.45);
+    }
+
+    .btn-shuffle {
+      background: #d03c35;
+      color: #ffffff;
+      box-shadow: 0 0 16px rgba(208, 60, 53, 0.35);
+    }
+
+    .btn-shuffle:hover {
       background: linear-gradient(135deg, #f05c54, #d94740);
       box-shadow: 0 0 22px rgba(208, 60, 53, 0.45);
     }

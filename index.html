@@ -50,6 +50,7 @@
     <div class="bubble-stage-card">
       <div class="stage-header">
         <div style="font-weight: 600; color: var(--text-primary);">I am interested in...</div>
+        <button class="btn-shuffle" id="shuffle-keywords" type="button" hidden>Shuffle keywords</button>
         <div class="counter-badge" id="bubble-counter">Selected: 0 / 6 (Select Min 3)</div>
       </div>
 
@@ -58,6 +59,7 @@
       </div>
 
       <div class="action-bar">
+        <button class="btn-recommend" id="clear-selection-btn" type="button" disabled>Clear selection</button>
         <button class="btn-recommend" id="recommend-btn" disabled>See recommended courses</button>
       </div>
     </div>
@@ -108,6 +110,7 @@
     let selectedKeywords = new Set();
     const viewport = document.getElementById('bubble-viewport');
     const counterBadge = document.getElementById('bubble-counter');
+    const clearSelectionBtn = document.getElementById('clear-selection-btn');
     const recommendBtn = document.getElementById('recommend-btn');
     const courseDialog = document.getElementById('course-dialog');
 
@@ -134,8 +137,7 @@
         counts.set(keyword, (counts.get(keyword) || 0) + 1);
       }));
       return Array.from(counts.keys())
-        .sort((first, second) => counts.get(second) - counts.get(first) || first.localeCompare(second))
-        .slice(0, 15);
+        .sort((first, second) => counts.get(second) - counts.get(first) || first.localeCompare(second));
     }
 
     function showCourseDetails(course) {
@@ -237,6 +239,7 @@
       const rect = viewport.getBoundingClientRect();
       const radius = 55;
       bubbles = [];
+      viewport.replaceChildren();
 
       allKeywords.forEach((kw, i) => {
         let x, y, overlap;
@@ -309,6 +312,7 @@
     function updateUI() {
       const count = selectedKeywords.size;
       counterBadge.innerText = `Selected: ${count} / 6 (Select Min 3)`;
+      clearSelectionBtn.disabled = count === 0;
 
       if (count >= 3 && count <= 6) {
         counterBadge.style.borderColor = "var(--pastel-purple)";
@@ -320,6 +324,15 @@
         recommendBtn.disabled = true;
       }
     }
+
+    clearSelectionBtn.addEventListener('click', () => {
+      selectedKeywords.clear();
+      bubbles.forEach(bubble => {
+        bubble.selected = false;
+        bubble.el.classList.remove('selected');
+      });
+      updateUI();
+    });
 
     // --- RECOMMENDATION ENGINE LOGIC ---
     recommendBtn.addEventListener('click', () => {

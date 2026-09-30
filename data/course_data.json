@@ -9,12 +9,10 @@
       "qr": "Translation",
       "website": "https://web.chinese.hku.hk/en/undergraduate/handbook/",
       "keyword": [
-        "Pop Culture",
-        "Mass Media",
-        "Translation",
-        "Film & TV",
-        "Internet Culture",
-        "Chinese Media"
+        "Pop Culture & Internet Trends",
+        "Social Media & Digital Platforms",
+        "Internet Culture & Memes",
+        "Translation & Multilingual Skills"
       ],
       "artwork": "images/CHIN2348.png"
     },
@@ -27,11 +25,10 @@
       "qr": "Translation",
       "website": "",
       "keyword": [
-        "Social Media",
-        "Translation",
-        "Content Creation",
-        "Digital Media",
-        "Viral Content"
+        "Social Media & Digital Platforms",
+        "Internet Culture & Memes",
+        "Translation & Multilingual Skills",
+        "Artificial Intelligence & Automation"
       ],
       "artwork": "images/CHIN2368.png"
     },
@@ -44,14 +41,13 @@
       "qr": "Translation",
       "website": "",
       "keyword": [
-        "Machine Translation",
-        "AI Translation",
-        "Language Tech",
-        "Translation Tools",
-        "No-Code Tech"
+        "Artificial Intelligence & Automation",
+        "Translation & Multilingual Skills",
+        "Cross-Cultural Communication",
+        "Coding & Computational Methods"
       ],
       "artwork": "images/CHIN2373.png",
-      "artwork_acknowledgement": "Original by Arno Mikkor (EU2017EE) [CC BY 2.0]"
+      "artwork_acknowledgement": "Artwork original by Arno Mikkor (EU2017EE) [CC BY 2.0]"
     },
     {
       "programme": "English Studies (SoE)",
@@ -62,11 +58,9 @@
       "qr": "ENGL2050",
       "website": "",
       "keyword": [
-        "English Language",
-        "Linguistics",
-        "Text Analysis",
-        "Big Data",
-        "Language Data"
+        "Big Data & Analytics",
+        "Text Mining & Language Processing",
+        "Coding & Computational Methods"
       ],
       "artwork": "images/ENGL2050.png"
     },
@@ -79,11 +73,10 @@
       "qr": "ENGL2103",
       "website": "",
       "keyword": [
-        "Social Media",
-        "Online Communication",
-        "TikTok & Trends",
-        "Digital Discourse",
-        "Human-Computer Interaction"
+        "Social Media & Digital Platforms",
+        "Text Mining & Language Processing",
+        "Big Data & Analytics",
+        "Independent Research & Inquiry"
       ],
       "artwork": "images/ENGL2103.png"
     },
@@ -96,11 +89,10 @@
       "qr": "ARTH2102",
       "website": "",
       "keyword": [
-        "Archaeology",
-        "Ancient History",
-        "3D Modeling",
-        "Mediterranean",
-        "Heritage Preservation"
+        "Ancient Civilizations & Archaeology",
+        "Cultural Heritage & Preservation",
+        "Virtual Reality & 3D Tech",
+        "Cross-Cultural Communication"
       ],
       "artwork": "images/ARTH2102.png"
     },
@@ -113,11 +105,10 @@
       "qr": "ARTH2108",
       "website": "",
       "keyword": [
-        "Mesopotamia",
-        "Archaeology",
-        "Ancient Civilizations",
-        "3D Modeling",
-        "World History"
+        "Ancient Civilizations & Archaeology",
+        "Cultural Heritage & Preservation",
+        "Virtual Reality & 3D Tech",
+        "Artificial Intelligence & Automation"
       ],
       "artwork": "images/ARTH2108.png"
     },
@@ -130,11 +121,10 @@
       "qr": "ARTH2111",
       "website": "",
       "keyword": [
-        "Artifacts",
-        "3D Scanning",
-        "Drones",
-        "Digital Archaeology",
-        "Museum Studies"
+        "Ancient Civilizations & Archaeology",
+        "Cultural Heritage & Preservation",
+        "Virtual Reality & 3D Tech",
+        "Independent Research & Inquiry"
       ],
       "artwork": "images/ARTH2111.png"
     },
@@ -147,11 +137,10 @@
       "qr": "CLIT2026",
       "website": "",
       "keyword": [
-        "Digital Culture",
-        "Cyber Ethics",
-        "Virtual Reality",
-        "Cyberpunk & Sci-Fi",
-        "Surveillance & Privacy"
+        "Virtual Reality & 3D Tech",
+        "Technology Ethics & Fairness",
+        "Pop Culture & Internet Trends",
+        "Digital Arts & Visual Culture"
       ],
       "artwork": "images/CLIT2026.png"
     },
@@ -164,11 +153,10 @@
       "qr": "CLIT2100",
       "website": "https://complit.hku.hk/index.php/comparative-literature-courses-2026-27/",
       "keyword": [
-        "Fake News",
-        "Deepfakes",
-        "Media Literacy",
-        "Misinformation",
-        "Science & Society"
+        "Critical Thinking & Fake News",
+        "Technology Ethics & Fairness",
+        "Artificial Intelligence & Automation",
+        "Independent Research & Inquiry"
       ],
       "artwork": "images/CLIT2100.png"
     },
@@ -181,11 +169,9 @@
       "qr": "Comparative_Literature",
       "website": "https://genderstudies.hku.hk/975-2/courses/",
       "keyword": [
-        "AI Ethics",
-        "Gender & Diversity",
-        "Algorithmic Bias",
-        "Social Justice",
-        "Technology & Society"
+        "Gender, Identity & Society",
+        "Technology Ethics & Fairness",
+        "Artificial Intelligence & Automation"
       ],
       "artwork": "images/GEND2010.png"
     },
@@ -198,11 +184,9 @@
       "qr": "History",
       "website": "https://www.history.hku.hk/undergraduate/course-catalogue",
       "keyword": [
-        "Ancient Greece",
-        "Ancient Rome",
-        "Mythology",
-        "Classical World",
-        "World History"
+        "Ancient Civilizations & Archaeology",
+        "Cultural Heritage & Preservation",
+        "Asian & Global Societies"
       ],
       "artwork": "images/HIST2136.png"
     },
@@ -215,11 +199,9 @@
       "qr": "History",
       "website": "",
       "keyword": [
-        "History of Technology",
-        "Industrial Revolution",
-        "Computing History",
-        "Modern History",
-        "Technology & Society"
+        "History of Innovation & Media",
+        "Technology Ethics & Fairness",
+        "Artificial Intelligence & Automation"
       ],
       "artwork": "images/HIST2204.png"
     },
@@ -232,11 +214,10 @@
       "qr": "History",
       "website": "",
       "keyword": [
-        "Digital History",
-        "Big Data",
-        "Text Mining",
-        "Machine Learning",
-        "Mapping & GIS"
+        "History of Innovation & Media",
+        "Big Data & Analytics",
+        "Text Mining & Language Processing",
+        "Coding & Computational Methods"
       ],
       "artwork": "images/HIST2205.png"
     },
@@ -249,11 +230,9 @@
       "qr": "History",
       "website": "",
       "keyword": [
-        "Book History",
-        "Print Culture",
-        "Publishing",
-        "E-Books",
-        "Archives & Manuscripts"
+        "History of Innovation & Media",
+        "Storytelling & Literature",
+        "Cultural Heritage & Preservation"
       ],
       "artwork": "images/HIST2207.png"
     },
@@ -266,11 +245,9 @@
       "qr": "History",
       "website": "",
       "keyword": [
-        "Video Games",
-        "Game Design",
-        "Interactive Storytelling",
-        "Historical Games",
-        "Digital Media"
+        "Gaming & Interactive Worlds",
+        "History of Innovation & Media",
+        "Digital Arts & Visual Culture"
       ],
       "artwork": "images/HIST3080.png"
     },
@@ -283,11 +260,9 @@
       "qr": "LING2027",
       "website": "",
       "keyword": [
-        "Speech & Sound",
-        "Phonetics",
-        "Linguistics",
-        "Machine Learning",
-        "Coding for Beginners"
+        "Speech & Sound Technology",
+        "Coding & Computational Methods",
+        "Mind, Brain & Consciousness"
       ],
       "artwork": "images/LING2027.png"
     },
@@ -300,14 +275,12 @@
       "qr": "LING2066",
       "website": "https://linguistics.hku.hk/courses/ba-courses/",
       "keyword": [
-        "Dialects & Accents",
-        "Speech Science",
-        "Sociolinguistics",
-        "Data Modeling",
-        "Language Diversity"
+        "Speech & Sound Technology",
+        "Coding & Computational Methods",
+        "Big Data & Analytics"
       ],
       "artwork": "images/LING2066.png",
-      "artwork_acknowledgement": "Original by m01229 from USA [CC BY 2.0]"
+      "artwork_acknowledgement": "Artwork original by m01229 from USA [CC BY 2.0]"
     },
     {
       "programme": "General Linguistics (SoH)",
@@ -318,11 +291,10 @@
       "qr": "LING2067",
       "website": "",
       "keyword": [
-        "Natural Language Processing",
-        "NLP",
-        "Speech Recognition",
-        "Text Mining",
-        "AI Tools"
+        "Artificial Intelligence & Automation",
+        "Text Mining & Language Processing",
+        "Speech & Sound Technology",
+        "Translation & Multilingual Skills"
       ],
       "artwork": "images/LING2067.png"
     },
@@ -335,11 +307,9 @@
       "qr": "LING2068",
       "website": "https://linguistics.hku.hk/courses/ba-courses/streams-in-hku-linguistics/",
       "keyword": [
-        "Computational Linguistics",
-        "Language Evolution",
-        "Big Data",
-        "Computer Simulations",
-        "Data Science"
+        "Big Data & Analytics",
+        "Coding & Computational Methods",
+        "Text Mining & Language Processing"
       ],
       "artwork": "images/LING2068.png"
     },
@@ -352,11 +322,9 @@
       "qr": "Philosophy",
       "website": "https://philosophy.hku.hk/undergrad-2/courses-2026-27/",
       "keyword": [
-        "AI Philosophy",
-        "Machine Consciousness",
-        "AI Ethics",
-        "Singularity",
-        "Future of Tech"
+        "Artificial Intelligence & Automation",
+        "Mind, Brain & Consciousness",
+        "Technology Ethics & Fairness"
       ],
       "artwork": "images/PHIL2225.png"
     },
@@ -369,11 +337,9 @@
       "qr": "Philosophy",
       "website": "",
       "keyword": [
-        "Cognitive Science",
-        "Consciousness",
-        "Neural Networks",
-        "Human Mind",
-        "Psychology & Logic"
+        "Mind, Brain & Consciousness",
+        "Artificial Intelligence & Automation",
+        "Coding & Computational Methods"
       ],
       "artwork": "images/PHIL2230.png"
     },
@@ -386,11 +352,9 @@
       "qr": "Philosophy",
       "website": "",
       "keyword": [
-        "Virtual Reality",
-        "Simulation Theory",
-        "Technophilosophy",
-        "Augmented Reality",
-        "Metaverse"
+        "Virtual Reality & 3D Tech",
+        "Mind, Brain & Consciousness",
+        "Technology Ethics & Fairness"
       ],
       "artwork": "images/PHIL2656.png"
     },
@@ -403,11 +367,9 @@
       "qr": "Philosophy",
       "website": "",
       "keyword": [
-        "Human Mind",
-        "Consciousness",
-        "Free Will",
-        "AI & Emotion",
-        "Brain & Identity"
+        "Mind, Brain & Consciousness",
+        "Artificial Intelligence & Automation",
+        "Technology Ethics & Fairness"
       ],
       "artwork": "images/PHIL2220.png"
     },
@@ -420,11 +382,9 @@
       "qr": "Philosophy",
       "website": "",
       "keyword": [
-        "Tech Ethics",
-        "AI Fairness",
-        "Algorithmic Bias",
-        "Privacy & Surveillance",
-        "Fake News"
+        "Technology Ethics & Fairness",
+        "Critical Thinking & Fake News",
+        "Artificial Intelligence & Automation"
       ],
       "artwork": "images/PHIL2653.png"
     },
@@ -437,11 +397,10 @@
       "qr": "GLAS2001",
       "website": "",
       "keyword": [
-        "Research Methods",
-        "Fact-Checking",
-        "AI Research Tools",
-        "Data Literacy",
-        "Global Studies"
+        "Independent Research & Inquiry",
+        "Critical Thinking & Fake News",
+        "Asian & Global Societies",
+        "Artificial Intelligence & Automation"
       ],
       "artwork": "images/GLAS2001.png"
     },
@@ -454,11 +413,9 @@
       "qr": "GLAS2101",
       "website": "https://www.glas.hku.hk/global-courses",
       "keyword": [
-        "Contemporary Art",
-        "New Media",
-        "Digital Art",
-        "Visual Culture",
-        "Time & Technology"
+        "Digital Arts & Visual Culture",
+        "Pop Culture & Internet Trends",
+        "Asian & Global Societies"
       ],
       "artwork": "images/GLAS2101.png"
     },
@@ -472,10 +429,9 @@
       "website": "https://www.glas.hku.hk/global-courses",
       "keyword": [
         "Cross-Cultural Communication",
-        "Virtual Exchange",
-        "Global Citizenship",
-        "Online Collaboration",
-        "Cultural Identity"
+        "Virtual Reality & 3D Tech",
+        "Asian & Global Societies",
+        "Independent Research & Inquiry"
       ],
       "artwork": "images/GLAS3101.png"
     },
@@ -488,11 +444,10 @@
       "qr": "GLAS2109",
       "website": "https://www.web.smlc.hku.hk/global-area-studies",
       "keyword": [
-        "Internet Memes",
-        "Humor Studies",
-        "Pop Culture",
-        "AI & Creativity",
-        "Viral Trends"
+        "Internet Culture & Memes",
+        "Pop Culture & Internet Trends",
+        "Asian & Global Societies",
+        "Artificial Intelligence & Automation"
       ],
       "artwork": "images/GLAS2109.png"
     },
@@ -505,11 +460,10 @@
       "qr": "Japanese Studies",
       "website": "https://japanese.hku.hk/programme.html",
       "keyword": [
-        "Japanese Literature",
-        "Comparative Literature",
-        "Cross-Cultural Studies",
-        "AI Analysis",
-        "Asian Culture"
+        "Asian & Global Societies",
+        "Storytelling & Literature",
+        "Cross-Cultural Communication",
+        "Artificial Intelligence & Automation"
       ],
       "artwork": "images/JAPN2074.png"
     },
@@ -522,11 +476,10 @@
       "qr": "Japanese Studies",
       "website": "",
       "keyword": [
-        "Japanese Literature",
-        "Modern Japan",
-        "Storytelling",
-        "AI in Humanities",
-        "Cultural Studies"
+        "Storytelling & Literature",
+        "Asian & Global Societies",
+        "Pop Culture & Internet Trends",
+        "Artificial Intelligence & Automation"
       ],
       "artwork": "images/JAPN2075.png"
     },
@@ -539,11 +492,10 @@
       "qr": "Japanese Studies",
       "website": "",
       "keyword": [
-        "Japanese Language",
-        "Translation",
-        "Machine Translation",
-        "AI Editing",
-        "Bilingual Skills"
+        "Translation & Multilingual Skills",
+        "Cross-Cultural Communication",
+        "Artificial Intelligence & Automation",
+        "Asian & Global Societies"
       ],
       "artwork": "images/JAPN3079.png"
     },
@@ -556,11 +508,10 @@
       "qr": "Japanese Studies",
       "website": "",
       "keyword": [
-        "Language Teaching",
-        "Japanese Pedagogy",
-        "Education Tech",
-        "AI Lesson Planning",
-        "Classroom Skills"
+        "Language Learning & Teaching",
+        "Career Skills & Internships",
+        "Asian & Global Societies",
+        "Gender, Identity & Society"
       ],
       "artwork": "images/JAPN4022.png"
     },
@@ -573,11 +524,10 @@
       "qr": "",
       "website": "",
       "keyword": [
-        "Advanced Japanese",
-        "Capstone Project",
-        "Professional Japanese",
-        "Video Presentation",
-        "Career Skills"
+        "Capstone & Portfolio Projects",
+        "Language Learning & Teaching",
+        "Career Skills & Internships",
+        "Asian & Global Societies"
       ],
       "artwork": "images/JAPN4099.png"
     },
@@ -590,11 +540,10 @@
       "qr": "Japanese Studies",
       "website": "",
       "keyword": [
-        "Japanese Studies",
-        "Independent Research",
-        "Capstone",
-        "Academic Writing",
-        "AI Research Tools"
+        "Capstone & Portfolio Projects",
+        "Independent Research & Inquiry",
+        "Asian & Global Societies",
+        "Artificial Intelligence & Automation"
       ],
       "artwork": "images/JAPN4101.png"
     },
@@ -607,11 +556,10 @@
       "qr": "Korean_Studies",
       "website": "https://korean.hku.hk/curriculum",
       "keyword": [
-        "Korean Speaking",
-        "Public Speaking",
-        "AI Image Generation",
-        "Presentation Skills",
-        "Korean Language"
+        "Language Learning & Teaching",
+        "Digital Arts & Visual Culture",
+        "Asian & Global Societies",
+        "Artificial Intelligence & Automation"
       ],
       "artwork": "images/KORE3040.png"
     },
@@ -624,11 +572,10 @@
       "qr": "Korean_Studies",
       "website": "https://korean.hku.hk/curriculum",
       "keyword": [
-        "Korean Language",
-        "Chinese-Korean Translation",
-        "Machine Translation",
-        "AI Editing",
-        "Bilingual Writing"
+        "Translation & Multilingual Skills",
+        "Cross-Cultural Communication",
+        "Artificial Intelligence & Automation",
+        "Asian & Global Societies"
       ],
       "artwork": "images/KORE3041.png"
     },
@@ -641,11 +588,10 @@
       "qr": "Korean_Studies",
       "website": "https://korean.hku.hk/curriculum",
       "keyword": [
-        "Advanced Korean",
-        "Independent Project",
-        "Capstone",
-        "AI Literacy",
-        "Video Production"
+        "Capstone & Portfolio Projects",
+        "Independent Research & Inquiry",
+        "Asian & Global Societies",
+        "Language Learning & Teaching"
       ],
       "artwork": "images/KORE4007.png"
     },
@@ -658,11 +604,10 @@
       "qr": "Korean_Studies",
       "website": "https://korean.hku.hk/curriculum",
       "keyword": [
-        "Korean Studies",
-        "Independent Research",
-        "Capstone Essay",
-        "AI Research Tools",
-        "Korean Society"
+        "Capstone & Portfolio Projects",
+        "Independent Research & Inquiry",
+        "Asian & Global Societies",
+        "Technology Ethics & Fairness"
       ],
       "artwork": "images/KORE4008.png"
     },
@@ -675,11 +620,10 @@
       "qr": "Korean_Studies",
       "website": "https://korean.hku.hk/curriculum",
       "keyword": [
-        "Korean Film & Cinema",
-        "Korean Culture",
-        "Literature",
-        "Capstone Seminar",
-        "AI Literacy"
+        "Capstone & Portfolio Projects",
+        "Asian & Global Societies",
+        "Pop Culture & Internet Trends",
+        "Storytelling & Literature"
       ],
       "artwork": "images/KORE4009.png"
     },
@@ -692,11 +636,10 @@
       "qr": "BSTC2021",
       "website": "https://www.buddhism.hku.hk/ap/ug/courses/",
       "keyword": [
-        "Buddhist Philosophy",
-        "Ethics & Morality",
-        "Mindfulness",
-        "Bioethics",
-        "AI Ethics"
+        "Technology Ethics & Fairness",
+        "Artificial Intelligence & Automation",
+        "Mind, Brain & Consciousness",
+        "Gender, Identity & Society"
       ],
       "artwork": "images/BSTC2021.png"
     },
@@ -709,11 +652,10 @@
       "qr": "Global_Creative_Industries",
       "website": "https://hkums.hku.hk/gcin-programme/",
       "keyword": [
-        "Video Games",
-        "Game Industry",
-        "Creative Industries",
-        "Gaming Culture",
-        "Media Studies"
+        "Gaming & Interactive Worlds",
+        "Entertainment & Creative Media",
+        "Gender, Identity & Society",
+        "Pop Culture & Internet Trends"
       ],
       "artwork": "images/GCIN2012.png"
     },
@@ -726,11 +668,10 @@
       "qr": "Global_Creative_Industries",
       "website": "https://hkums.hku.hk/gcin-programme/",
       "keyword": [
-        "Video Games",
-        "Game Design",
-        "Pop Culture",
-        "Virtual Worlds",
-        "Creative Economy"
+        "Gaming & Interactive Worlds",
+        "Pop Culture & Internet Trends",
+        "Entertainment & Creative Media",
+        "Storytelling & Literature"
       ],
       "artwork": "images/GCIN2029.png"
     },
@@ -743,11 +684,10 @@
       "qr": "Global_Creative_Industries",
       "website": "https://hkums.hku.hk/gcin-programme/",
       "keyword": [
-        "Digital Economy",
-        "Entertainment Industry",
-        "Streaming & Video",
-        "Animation & VFX",
-        "Media Management"
+        "Entertainment & Creative Media",
+        "Social Media & Digital Platforms",
+        "Gaming & Interactive Worlds",
+        "Digital Arts & Visual Culture"
       ],
       "artwork": "images/GCIN2035.png"
     },
@@ -760,11 +700,9 @@
       "qr": "Global_Creative_Industries",
       "website": "https://hkums.hku.hk/gcin-programme/",
       "keyword": [
-        "Asian Entertainment",
-        "Digital Audiences",
-        "Fandom Culture",
-        "Content Creators",
-        "Media Markets"
+        "Entertainment & Creative Media",
+        "Asian & Global Societies",
+        "Social Media & Digital Platforms"
       ],
       "artwork": "images/GCIN2038.png"
     },
@@ -777,11 +715,10 @@
       "qr": "Humanities_and_Digital_Technologies",
       "website": "https://hdt.arts.hku.hk/curriculum-structure",
       "keyword": [
-        "Digital Humanities",
-        "Cultural Analytics",
-        "Information Society",
-        "Data & Culture",
-        "Digital Media"
+        "Big Data & Analytics",
+        "Independent Research & Inquiry",
+        "History of Innovation & Media",
+        "Critical Thinking & Fake News"
       ],
       "artwork": "images/HUDT1001.png"
     },
@@ -794,11 +731,10 @@
       "qr": "Humanities_and_Digital_Technologies",
       "website": "https://hdt.arts.hku.hk/curriculum-structure",
       "keyword": [
-        "Python Programming",
-        "Text Mining",
-        "Machine Learning",
-        "Data Visualization",
-        "Digital Humanities"
+        "Coding & Computational Methods",
+        "Text Mining & Language Processing",
+        "Big Data & Analytics",
+        "Artificial Intelligence & Automation"
       ],
       "artwork": "images/HUDT1002.png"
     },
@@ -811,11 +747,10 @@
       "qr": "Humanities_and_Digital_Technologies",
       "website": "https://hdt.arts.hku.hk/curriculum-structure",
       "keyword": [
-        "Virtual Reality",
-        "Artificial Intelligence",
-        "Digital Twins",
-        "Creative Tech",
-        "Cultural Preservation"
+        "Virtual Reality & 3D Tech",
+        "Artificial Intelligence & Automation",
+        "Cultural Heritage & Preservation",
+        "Entertainment & Creative Media"
       ],
       "artwork": "images/HUDT2100.png"
     },
@@ -828,11 +763,10 @@
       "qr": "Humanities_and_Digital_Technologies",
       "website": "https://hdt.arts.hku.hk/curriculum-structure",
       "keyword": [
-        "Metaverse",
-        "Blockchain",
-        "Big Data",
-        "Future Tech",
-        "Gamification"
+        "Artificial Intelligence & Automation",
+        "Big Data & Analytics",
+        "Virtual Reality & 3D Tech",
+        "Gaming & Interactive Worlds"
       ],
       "artwork": "images/HUDT3001.png"
     },
@@ -845,11 +779,10 @@
       "qr": "Humanities_and_Digital_Technologies",
       "website": "https://hdt.arts.hku.hk/curriculum-structure",
       "keyword": [
-        "Internship",
-        "Work Experience",
-        "Data Management",
-        "Social Media",
-        "Career Development"
+        "Career Skills & Internships",
+        "Cultural Heritage & Preservation",
+        "Entertainment & Creative Media",
+        "Independent Research & Inquiry"
       ],
       "artwork": "images/HUDT3100.png"
     },
@@ -862,11 +795,9 @@
       "qr": "Humanities_and_Digital_Technologies",
       "website": "https://hdt.arts.hku.hk/curriculum-structure",
       "keyword": [
-        "Capstone Project",
-        "Digital Innovation",
-        "Independent Research",
-        "Creative Tech",
-        "Portfolio Project"
+        "Capstone & Portfolio Projects",
+        "Independent Research & Inquiry",
+        "Coding & Computational Methods"
       ],
       "artwork": "images/HUDT4001.png"
     },
@@ -879,11 +810,10 @@
       "qr": "Humanities_and_Digital_Technologies",
       "website": "https://hdt.arts.hku.hk/curriculum-structure",
       "keyword": [
-        "Virtual Reality (VR)",
-        "Augmented Reality (AR)",
-        "Extended Reality (XR)",
-        "3D Modeling",
-        "Immersive Tech"
+        "Virtual Reality & 3D Tech",
+        "Cultural Heritage & Preservation",
+        "Digital Arts & Visual Culture",
+        "Entertainment & Creative Media"
       ],
       "artwork": "images/HUDT2205.png"
     },
@@ -896,11 +826,10 @@
       "qr": "CAES2002",
       "website": "https://handbook.hku.hk/ug/full-time-2021-22/academicsupport-units/centre-for-applied-english-studies.html",
       "keyword": [
-        "Digital Storytelling",
-        "Video Production",
-        "English Communication",
-        "Online Media",
-        "Creative Narrative"
+        "Storytelling & Literature",
+        "Digital Arts & Visual Culture",
+        "Career Skills & Internships",
+        "Cross-Cultural Communication"
       ],
       "artwork": "images/CAES2002.png"
     }
