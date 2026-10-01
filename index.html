@@ -46,22 +46,56 @@
       <p>Which HKU Arts courses match your interests? Pick the topics and find out.</p>
     </div>
 
-    <!-- Bubble Recommendation Stage -->
+    <!-- Recommendation modes -->
     <div class="bubble-stage-card">
-      <div class="stage-header">
-        <div style="font-weight: 600; color: var(--text-primary);">I am interested in...</div>
-        <button class="btn-shuffle" id="shuffle-keywords" type="button" hidden>Shuffle keywords</button>
-        <div class="counter-badge" id="bubble-counter">Selected: 0 / 6 (Select Min 3)</div>
+      <div class="mode-tabs" role="tablist" aria-label="Recommendation mode">
+        <button class="mode-tab" id="tab-bubbles" type="button" role="tab" aria-selected="true" aria-controls="panel-bubbles" tabindex="0">Explore topics</button>
+        <button class="mode-tab" id="tab-faceoff" type="button" role="tab" aria-selected="false" aria-controls="panel-faceoff" tabindex="-1">Keyword Face-Off</button>
       </div>
 
-      <div class="bubble-viewport" id="bubble-viewport">
-        <!-- Floating bubbles generated dynamically -->
-      </div>
+      <section class="mode-panel" id="panel-bubbles" role="tabpanel" aria-labelledby="tab-bubbles">
+        <div class="stage-header">
+          <div style="font-weight: 600; color: var(--text-primary);">I am interested in...</div>
+          <button class="btn-shuffle" id="shuffle-keywords" type="button" hidden>Shuffle keywords</button>
+          <div class="counter-badge" id="bubble-counter">Selected: 0 / 6 (Select Min 3)</div>
+        </div>
 
-      <div class="action-bar">
-        <button class="btn-recommend" id="clear-selection-btn" type="button" disabled>Clear selection</button>
-        <button class="btn-recommend" id="recommend-btn" disabled>See recommended courses</button>
-      </div>
+        <div class="bubble-viewport" id="bubble-viewport">
+          <!-- Floating bubbles generated dynamically -->
+        </div>
+
+        <div class="action-bar">
+          <button class="btn-recommend" id="clear-selection-btn" type="button" disabled>Clear selection</button>
+          <button class="btn-recommend" id="recommend-btn" disabled>See recommended courses</button>
+        </div>
+      </section>
+
+      <section class="mode-panel" id="panel-faceoff" role="tabpanel" aria-labelledby="tab-faceoff" hidden>
+        <div class="stage-header">
+          <div class="faceoff-heading">
+            <strong>Choose the topic you prefer more over the other!</strong>
+            <span>We can find matching courses based on your ranking.</span>
+          </div>
+          <div class="counter-badge" id="faceoff-progress">Preparing topics...</div>
+        </div>
+        <div class="faceoff-progress-track" aria-hidden="true"><div class="faceoff-progress-fill" id="faceoff-progress-fill"></div></div>
+        <div class="faceoff-pair" id="faceoff-pair" aria-live="polite" aria-atomic="true"></div>
+        <div class="faceoff-actions">
+          <button class="btn-recommend" id="faceoff-show-matches" type="button" disabled aria-describedby="faceoff-match-hint">Show matches now</button>
+          <button class="btn-recommend" id="faceoff-restart" type="button">Start over</button>
+          <p class="faceoff-match-hint" id="faceoff-match-hint">Available after five topics are ranked.</p>
+        </div>
+        <section class="faceoff-results" id="faceoff-results" hidden>
+          <h3 id="faceoff-ranking-title" tabindex="-1">Your top five topics</h3>
+          <ol class="keyword-ranking" id="keyword-ranking"></ol>
+          <details class="keyword-ranking-more" id="keyword-ranking-more" hidden>
+            <summary id="keyword-ranking-more-summary"></summary>
+            <ol class="keyword-ranking" id="keyword-ranking-more-list"></ol>
+          </details>
+          <h3>Courses matched to your interests</h3>
+          <div class="faceoff-course-results" id="faceoff-course-results"></div>
+        </section>
+      </section>
     </div>
 
     <!-- Recommendation Output Section -->
@@ -112,6 +146,49 @@
     const clearSelectionBtn = document.getElementById('clear-selection-btn');
     const recommendBtn = document.getElementById('recommend-btn');
     const courseDialog = document.getElementById('course-dialog');
+    const faceoffPair = document.getElementById('faceoff-pair');
+    const faceoffProgress = document.getElementById('faceoff-progress');
+    const faceoffProgressFill = document.getElementById('faceoff-progress-fill');
+    const faceoffResults = document.getElementById('faceoff-results');
+    const faceoffRestartBtn = document.getElementById('faceoff-restart');
+    const faceoffShowMatchesBtn = document.getElementById('faceoff-show-matches');
+    const faceoffMatchHint = document.getElementById('faceoff-match-hint');
+const keywordEmojis = new Map([
+      ['Artificial Intelligence & Automation', '🤖'],
+      ['Asian & Global Societies', '🌏'],
+      ['Independent Research & Inquiry', '🔎'],
+      ['Technology Ethics & Fairness', '⚖️'],
+      ['Cross-Cultural Communication', '💬'],
+      ['Coding & Computational Methods', '💻'],
+      ['Translation & Multilingual Skills', '㉆'],
+      ['Cultural Heritage & Preservation', '🏛️'],
+      ['Big Data & Analytics', '📊'],
+      ['Entertainment & Creative Media', '🎬'],
+      ['Pop Culture & Internet Trends', '🧑‍🎤'],
+      ['Virtual Reality & 3D Tech', '🥽'],
+      ['Digital Arts & Visual Culture', '🎨'],
+      ['Language Learning & Teaching', '📚'],
+      ['Mind, Brain & Consciousness', '🧠'],
+      ['Text Mining & Language Processing', '📝'],
+      ['History of Innovation & Media', '🕰️'],
+      ['Storytelling & Literature', '📖'],
+      ['Social Media & Digital Platforms', '📱'],
+      ['Ancient Civilizations & Archaeology', '🏺'],
+      ['Capstone & Portfolio Projects', '🏆'],
+      ['Critical Thinking & Fake News', '🧐'],
+      ['Gender, Identity & Society', '⚧'],
+      ['Career Skills & Internships', '🧭'],
+      ['Gaming & Interactive Worlds', '🎮'],
+      ['Internet Culture & Memes', '😂'],
+      ['Speech & Sound Technology', '🗣️']
+    ]);
+    let faceoffKeywords = [];
+    let faceoffRanking = [];
+    let faceoffCandidateIndex = 0;
+    let faceoffLow = 0;
+    let faceoffHigh = 0;
+    let faceoffMidpoint = 0;
+    let faceoffComparisonCount = 0;
 
     function setCourseArtwork(element, course) {
       element.style.removeProperty('--course-artwork');
@@ -325,6 +402,209 @@
       }
     }
 
+    function activateModeTab(activeTab) {
+      document.querySelectorAll('.mode-tab').forEach(tab => {
+        const isActive = tab === activeTab;
+        tab.setAttribute('aria-selected', String(isActive));
+        tab.tabIndex = isActive ? 0 : -1;
+        document.getElementById(tab.getAttribute('aria-controls')).hidden = !isActive;
+      });
+    }
+
+    document.querySelectorAll('.mode-tab').forEach((tab, index, tabs) => {
+      tab.addEventListener('click', () => activateModeTab(tab));
+      tab.addEventListener('keydown', event => {
+        let nextIndex;
+        if (event.key === 'ArrowRight') nextIndex = (index + 1) % tabs.length;
+        else if (event.key === 'ArrowLeft') nextIndex = (index - 1 + tabs.length) % tabs.length;
+        else if (event.key === 'Home') nextIndex = 0;
+        else if (event.key === 'End') nextIndex = tabs.length - 1;
+        else return;
+        event.preventDefault();
+        activateModeTab(tabs[nextIndex]);
+        tabs[nextIndex].focus();
+      });
+    });
+
+    activateModeTab(document.getElementById(
+      window.matchMedia('(max-width: 640px)').matches ? 'tab-faceoff' : 'tab-bubbles'
+    ));
+
+    function beginFaceoff() {
+      faceoffKeywords = [...allKeywords];
+      for (let index = faceoffKeywords.length - 1; index > 0; index--) {
+        const swapIndex = Math.floor(Math.random() * (index + 1));
+        [faceoffKeywords[index], faceoffKeywords[swapIndex]] = [faceoffKeywords[swapIndex], faceoffKeywords[index]];
+      }
+      faceoffRanking = faceoffKeywords.length ? [faceoffKeywords[0]] : [];
+      faceoffCandidateIndex = 1;
+      faceoffLow = 0;
+      faceoffHigh = faceoffRanking.length;
+      faceoffComparisonCount = 0;
+      faceoffResults.hidden = true;
+      const moreTopics = document.getElementById('keyword-ranking-more');
+      moreTopics.hidden = true;
+      moreTopics.open = false;
+      faceoffPair.hidden = false;
+      faceoffPair.replaceChildren();
+      faceoffRestartBtn.textContent = 'Start over';
+      faceoffShowMatchesBtn.hidden = false;
+      faceoffShowMatchesBtn.disabled = true;
+      faceoffMatchHint.textContent = 'Available after five topics are ranked.';
+      document.querySelector('#panel-faceoff .faceoff-heading strong').textContent = 'Choose the topic you prefer more over the other!';
+      document.querySelector('#panel-faceoff .faceoff-heading span').textContent = 'We can find matching courses based on your ranking.';
+      advanceFaceoff();
+    }
+
+    function advanceFaceoff() {
+      while (faceoffCandidateIndex < faceoffKeywords.length && faceoffLow >= faceoffHigh) {
+        faceoffRanking.splice(faceoffLow, 0, faceoffKeywords[faceoffCandidateIndex]);
+        faceoffCandidateIndex++;
+        faceoffLow = 0;
+        faceoffHigh = faceoffRanking.length;
+      }
+
+      if (faceoffCandidateIndex >= faceoffKeywords.length) {
+        finishFaceoff();
+        return;
+      }
+
+      faceoffShowMatchesBtn.disabled = faceoffRanking.length < 5;
+      faceoffMatchHint.textContent = faceoffRanking.length >= 5
+        ? 'Five topics ranked. Show matches now, or keep going.'
+        : `Rank ${5 - faceoffRanking.length} more topic${5 - faceoffRanking.length === 1 ? '' : 's'} to unlock matches.`;
+      faceoffMidpoint = Math.floor((faceoffLow + faceoffHigh) / 2);
+      const candidate = faceoffKeywords[faceoffCandidateIndex];
+      const rankedTopic = faceoffRanking[faceoffMidpoint];
+      const candidateOnLeft = Math.random() < 0.5;
+      const choices = candidateOnLeft ? [candidate, rankedTopic] : [rankedTopic, candidate];
+      faceoffPair.replaceChildren(...choices.map(keyword => {
+        const button = document.createElement('button');
+        button.className = 'keyword-choice';
+        button.type = 'button';
+        const icon = document.createElement('span');
+        icon.className = 'keyword-choice__icon';
+        icon.textContent = keywordEmojis.get(keyword) || '✨';
+        icon.setAttribute('aria-hidden', 'true');
+        const label = document.createElement('span');
+        label.className = 'keyword-choice__label';
+        label.textContent = keyword;
+        button.append(icon, label);
+        button.setAttribute('aria-label', `Choose ${keyword}`);
+        button.addEventListener('click', () => recordFaceoffChoice(keyword));
+        return button;
+      }));
+      if (!document.getElementById('panel-faceoff').hidden) {
+        faceoffPair.querySelector('button').focus({ preventScroll: true });
+      }
+      faceoffProgress.textContent = `Topic ${faceoffCandidateIndex + 1} of ${faceoffKeywords.length} · Choice ${faceoffComparisonCount + 1}`;
+      faceoffProgressFill.style.width = `${Math.round((faceoffCandidateIndex / faceoffKeywords.length) * 100)}%`;
+    }
+
+    function recordFaceoffChoice(preferredKeyword) {
+      if (preferredKeyword === faceoffKeywords[faceoffCandidateIndex]) {
+        faceoffHigh = faceoffMidpoint;
+      } else {
+        faceoffLow = faceoffMidpoint + 1;
+      }
+      faceoffComparisonCount++;
+      advanceFaceoff();
+    }
+
+    function finishFaceoff(showTopFiveOnly = false) {
+      if (showTopFiveOnly) faceoffRanking = faceoffRanking.slice(0, 5);
+      faceoffPair.replaceChildren();
+      faceoffPair.hidden = true;
+      faceoffResults.hidden = false;
+      faceoffRestartBtn.textContent = 'Rank again';
+      faceoffShowMatchesBtn.hidden = true;
+      faceoffShowMatchesBtn.disabled = true;
+      faceoffMatchHint.textContent = showTopFiveOnly
+        ? 'Matches use only your top five ranked topics.'
+        : 'All topics ranked. Matches use your complete ranking.';
+      faceoffProgress.textContent = showTopFiveOnly
+        ? `Top five ready · ${faceoffComparisonCount} choices`
+        : `Complete · ${faceoffRanking.length} topics ranked`;
+      faceoffProgressFill.style.width = showTopFiveOnly
+        ? `${Math.round((faceoffRanking.length / faceoffKeywords.length) * 100)}%`
+        : '100%';
+      document.querySelector('#panel-faceoff .faceoff-heading strong').textContent = showTopFiveOnly
+        ? 'Your top five topics are ready.'
+        : 'Your preferences are ranked.';
+      document.querySelector('#panel-faceoff .faceoff-heading span').textContent = showTopFiveOnly
+        ? 'Matches use only these five ranked topics. Choose Rank again to build a new ranking.'
+        : `${faceoffComparisonCount} choices shaped this order. Choose Rank again to try a different pass.`;
+
+      const rankingList = document.getElementById('keyword-ranking');
+      rankingList.replaceChildren(...faceoffRanking.slice(0, 5).map((keyword, index) => {
+        const item = document.createElement('li');
+        item.textContent = keyword;
+        item.style.setProperty('--rank-index', index);
+        return item;
+      }));
+      const remainingKeywords = faceoffRanking.slice(5);
+      const moreTopics = document.getElementById('keyword-ranking-more');
+      moreTopics.hidden = remainingKeywords.length === 0;
+      document.getElementById('keyword-ranking-more-summary').textContent = `Show remaining ${remainingKeywords.length} topics`;
+      document.getElementById('keyword-ranking-more-list').replaceChildren(...remainingKeywords.map((keyword, index) => {
+        const item = document.createElement('li');
+        item.textContent = keyword;
+        item.style.setProperty('--rank-index', index + 5);
+        return item;
+      }));
+
+      const rankByKeyword = new Map(faceoffRanking.map((keyword, index) => [keyword, index]));
+      const matches = courseDatabase.map(course => {
+        const matchedKeywords = course.keyword.filter(keyword => rankByKeyword.has(keyword));
+        const score = matchedKeywords.reduce((total, keyword) => total + faceoffRanking.length - rankByKeyword.get(keyword), 0);
+        return { course, matchedKeywords, score };
+      }).filter(match => match.score > 0);
+      matches.sort((first, second) => second.score - first.score || second.matchedKeywords.length - first.matchedKeywords.length || first.course.code.localeCompare(second.course.code));
+
+      const courseResults = document.getElementById('faceoff-course-results');
+      courseResults.replaceChildren(...matches.slice(0, 4).map(({ course, matchedKeywords }, index) => {
+        const card = document.createElement('div');
+        card.className = `rank-card ${index === 0 ? 'rank-1' : ''}`;
+        card.style.setProperty('--rank-index', index);
+        setCourseArtwork(card, course);
+
+        const badge = document.createElement('div');
+        badge.className = 'rank-badge';
+        badge.textContent = index === 0 ? 'Best match' : `Ranked ${index + 1}`;
+        const header = document.createElement('div');
+        header.className = 'course-header-line';
+        const titleGroup = document.createElement('div');
+        const code = document.createElement('span');
+        code.className = 'course-code';
+        code.textContent = course.code;
+        const title = document.createElement('div');
+        title.className = 'course-title';
+        title.textContent = course.title;
+        titleGroup.append(code, title);
+        const programme = document.createElement('span');
+        programme.className = 'major-tag';
+        programme.textContent = course.programme;
+        header.append(titleGroup, programme);
+
+        const brief = document.createElement('p');
+        brief.className = 'course-desc';
+        brief.textContent = course.description_brief;
+        const matchedTopics = document.createElement('p');
+        matchedTopics.className = 'course-desc';
+        matchedTopics.textContent = `Matched topics: ${matchedKeywords.sort((first, second) => rankByKeyword.get(first) - rankByKeyword.get(second)).join(', ')}`;
+        card.append(badge, header, brief, matchedTopics, createReadMoreButton(course), createTags(course));
+        return card;
+      }));
+      if (!document.getElementById('panel-faceoff').hidden) {
+        document.getElementById('faceoff-ranking-title').focus({ preventScroll: true });
+      }
+    }
+
+    faceoffRestartBtn.addEventListener('click', beginFaceoff);
+    faceoffShowMatchesBtn.addEventListener('click', () => {
+      if (faceoffRanking.length >= 5) finishFaceoff(true);
+    });
+
     clearSelectionBtn.addEventListener('click', () => {
       selectedKeywords.clear();
       bubbles.forEach(bubble => {
@@ -405,7 +685,7 @@
         return;
       }
 
-      coursesToRender.forEach(course => {
+      coursesToRender.slice().sort((first, second) => first.code.localeCompare(second.code)).forEach(course => {
         const card = document.createElement('div');
         card.className = 'dir-card';
         setCourseArtwork(card, course);
@@ -620,6 +900,7 @@
 
         courseDatabase = courses;
         allKeywords = deriveKeywords(courseDatabase);
+        beginFaceoff();
         initBubbles();
         animateBubbles();
         renderDirectory(courseDatabase);
