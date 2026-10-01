@@ -478,7 +478,7 @@ const keywordEmojis = new Map([
       const rankedTopic = faceoffRanking[faceoffMidpoint];
       const candidateOnLeft = Math.random() < 0.5;
       const choices = candidateOnLeft ? [candidate, rankedTopic] : [rankedTopic, candidate];
-      faceoffPair.replaceChildren(...choices.map(keyword => {
+      const choiceButtons = choices.map(keyword => {
         const button = document.createElement('button');
         button.className = 'keyword-choice';
         button.type = 'button';
@@ -493,7 +493,12 @@ const keywordEmojis = new Map([
         button.setAttribute('aria-label', `Choose ${keyword}`);
         button.addEventListener('click', () => recordFaceoffChoice(keyword));
         return button;
-      }));
+      });
+      const prompt = document.createElement('span');
+      prompt.className = 'faceoff-versus';
+      prompt.textContent = 'Which suits you better?';
+      prompt.setAttribute('aria-hidden', 'true');
+      faceoffPair.replaceChildren(choiceButtons[0], prompt, choiceButtons[1]);
       if (!document.getElementById('panel-faceoff').hidden) {
         faceoffPair.querySelector('button').focus({ preventScroll: true });
       }

@@ -1,5 +1,7 @@
 
     @import url('https://fonts.googleapis.com/css2?family=Chiron+Hei+HK:ital,wght@0,200..900;1,200..900&family=Lexend:wght@100..900&display=swap');
+    @import url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiColor.css');
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap');
 
     :root {
       --bg-dark: #000000;
@@ -1021,10 +1023,29 @@
 
     .faceoff-pair {
       display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
+      grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+      grid-template-areas: "first prompt last";
       align-items: center;
       gap: 1rem;
       min-height: 260px;
+    }
+
+    .faceoff-pair > .keyword-choice:first-child {
+      grid-area: first;
+    }
+
+    .faceoff-pair > .faceoff-versus {
+      grid-area: prompt;
+      max-width: 12rem;
+      color: #ffaaa4;
+      font-size: xx-large;
+      font-weight: 700;
+      line-height: 1.3;
+      text-align: center;
+    }
+
+    .faceoff-pair > .keyword-choice:last-child {
+      grid-area: last;
     }
 
     .keyword-choice {
@@ -1054,6 +1075,7 @@
     .keyword-choice__icon {
       display: block;
       margin-bottom: 0.65rem;
+      font-family: 'Fluent Emoji Color', 'Noto Color Emoji', var(--font-family);
       font-size: 3.4rem;
       line-height: 1;
       filter: drop-shadow(0 4px 10px rgba(208, 60, 53, 0.35));
@@ -1216,11 +1238,20 @@
 
     @media (max-width: 560px) {
       .faceoff-pair {
+        grid-template-columns: minmax(0, 1fr);
+        grid-template-areas: "first" "prompt" "last";
         gap: 0.5rem;
-        min-height: 190px;
+        min-height: 0;
+      }
+
+      .faceoff-pair > .faceoff-versus {
+        justify-self: center;
+        max-width: 8rem;
+        font-size: 0.82rem;
       }
 
       .keyword-choice {
+        width: min(100%, 150px);
         padding: 0.35rem;
         font-size: 0.9rem;
       }
